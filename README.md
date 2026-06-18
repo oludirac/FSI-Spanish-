@@ -4,8 +4,9 @@ Audio-first Spanish speaking practice built from the public-domain FSI Spanish
 Basic Course. The app helps learners practice structured transformations:
 listen to a cue, produce the full Spanish answer, and get immediate feedback.
 
-This is a GitHub-ready MVP, not a full-course product. It currently includes
-Units 7-16: 343 drill items.
+The focus is deliberate oral pattern practice rather than flashcards or free
+conversation. It currently covers Units 7-16, with 343 drill items adapted for
+browser-based speaking practice.
 
 ## What It Does
 
@@ -20,7 +21,7 @@ Units 7-16: 343 drill items.
 - Browser speech synthesis works by default; pre-generated ElevenLabs audio is
   optional.
 
-## Current Scope
+## Course Coverage
 
 Included:
 
@@ -35,7 +36,7 @@ Included:
 - Unit 15: indirect object clitics
 - Unit 16: `faltar`, `gustar`, and negation review
 
-Not included yet:
+Not included:
 
 - Full FSI course coverage
 - Required generated audio assets
