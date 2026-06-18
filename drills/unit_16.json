@@ -1,0 +1,943 @@
+[
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "redundant clitic: person substitution with faltar",
+    "cue_audio_text": "A nosotros",
+    "base_sentence": "A mí me falta una maleta.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A nosotros nos falta una maleta."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "faltar"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "redundant clitic: person substitution with faltar",
+    "cue_audio_text": "A Carmen",
+    "base_sentence": "A mí me falta una maleta.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A Carmen le falta una maleta."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "faltar"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "redundant clitic: person substitution with faltar",
+    "cue_audio_text": "A ellos",
+    "base_sentence": "A mí me falta una maleta.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A ellos les falta una maleta."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "faltar"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "redundant clitic: person substitution with gustar",
+    "cue_audio_text": "A nosotros",
+    "base_sentence": "A él le gusta el carro.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A nosotros nos gusta el carro."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "gustar"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "redundant clitic: person substitution with gustar",
+    "cue_audio_text": "A mí",
+    "base_sentence": "A él le gusta el carro.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A mí me gusta el carro."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "gustar"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "redundant clitic: person substitution with parecer",
+    "cue_audio_text": "A José",
+    "base_sentence": "A nosotros nos parece grande.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A José le parece grande."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "parecer"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "redundant clitic: person substitution with parecer",
+    "cue_audio_text": "A Juan y a María",
+    "base_sentence": "A nosotros nos parece grande.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A Juan y a María les parece grande."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "parecer"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "redundant clitic: person substitution with parecer",
+    "cue_audio_text": "A ti",
+    "base_sentence": "A nosotros nos parece grande.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A ti te parece grande."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "parecer"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "redundant clitic: number substitution with faltar",
+    "cue_audio_text": "A nosotros",
+    "base_sentence": "A mí me falta la visa.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A nosotros nos falta la visa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "number_substitution",
+      "faltar"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "redundant clitic: number substitution with parecer",
+    "cue_audio_text": "A ella",
+    "base_sentence": "A ellas les parecen caras.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A ella le parecen caras."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "number_substitution",
+      "parecer"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "redundant clitic: number substitution with gustar",
+    "cue_audio_text": "A mí",
+    "base_sentence": "A nosotros nos gusta el whisky.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A mí me gusta el whisky."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "number_substitution",
+      "gustar"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "redundant clitic: number substitution with gustar, negation",
+    "cue_audio_text": "A ustedes",
+    "base_sentence": "A usted no le gusta nada.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A ustedes no les gusta nada."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "number_substitution",
+      "gustar",
+      "negation"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "redundant clitic: number substitution with convenir",
+    "cue_audio_text": "A ellos",
+    "base_sentence": "A él le conviene el precio.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A ellos les conviene el precio."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "number_substitution",
+      "convenir"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "constrained_response",
+    "original_focus": "redundant clitic: alternative question with parecer",
+    "cue_audio_text": "A usted, ¿le parece el libro bueno o malo?",
+    "base_sentence": "A usted, ¿le parece el libro bueno o malo?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A mí me parece muy bueno.",
+      "A mí me parece muy malo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "parecer",
+      "response"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "constrained_response",
+    "original_focus": "redundant clitic: alternative question with gustar",
+    "cue_audio_text": "A ustedes, ¿les gusta el whisky o la cerveza?",
+    "base_sentence": "A ustedes, ¿les gusta el whisky o la cerveza?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A nosotros nos gusta el whisky.",
+      "A nosotros nos gusta la cerveza."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "gustar",
+      "response"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "constrained_response",
+    "original_focus": "redundant clitic: who-question with gustar",
+    "cue_audio_text": "¿A quién le gusta el whisky?",
+    "base_sentence": "¿A quién le gusta el whisky?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A mí me gusta el whisky."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "gustar",
+      "response"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "constrained_response",
+    "original_focus": "redundant clitic: yes/no response with gustar",
+    "cue_audio_text": "¿A ti te gusta el Edificio del Campo?",
+    "base_sentence": "¿A ti te gusta el Edificio del Campo?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, a mí me gusta mucho."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "gustar",
+      "response"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "constrained_response",
+    "original_focus": "redundant clitic: yes/no response with gustar, plural",
+    "cue_audio_text": "¿A ustedes les gusta la escuela?",
+    "base_sentence": "¿A ustedes les gusta la escuela?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, a nosotros nos gusta mucho."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "gustar",
+      "response"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "constrained_response",
+    "original_focus": "redundant clitic: yes/no response with parecer",
+    "cue_audio_text": "¿A ti te parece Carmen bonita?",
+    "base_sentence": "¿A ti te parece Carmen bonita?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, a mí me parece muy bonita."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "redundant_construction",
+      "parecer",
+      "response"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "structural_transformation",
+    "original_focus": "negative question formation",
+    "cue_audio_text": "¿Quiere un trago?",
+    "base_sentence": "¿Quiere un trago?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿No quiere un trago?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "negation",
+      "question_intonation"
+    ],
+    "block_instruction": "Transformación: hágalo negativo"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "structural_transformation",
+    "original_focus": "negative question formation",
+    "cue_audio_text": "¿Habla español?",
+    "base_sentence": "¿Habla español?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿No habla español?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "negation",
+      "question_intonation"
+    ],
+    "block_instruction": "Transformación: hágalo negativo"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "structural_transformation",
+    "original_focus": "negative question formation with clitic",
+    "cue_audio_text": "¿Le gusta la habitación?",
+    "base_sentence": "¿Le gusta la habitación?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿No le gusta la habitación?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "negation",
+      "question_intonation",
+      "indirect_clitic"
+    ],
+    "block_instruction": "Transformación: hágalo negativo"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "structural_transformation",
+    "original_focus": "negative question formation",
+    "cue_audio_text": "¿Está ocupado?",
+    "base_sentence": "¿Está ocupado?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿No está ocupado?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "negation",
+      "question_intonation"
+    ],
+    "block_instruction": "Transformación: hágalo negativo"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "structural_transformation",
+    "original_focus": "negative question formation",
+    "cue_audio_text": "¿Tiene el cheque?",
+    "base_sentence": "¿Tiene el cheque?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿No tiene el cheque?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "negation",
+      "question_intonation"
+    ],
+    "block_instruction": "Transformación: hágalo negativo"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: adjective swap",
+    "cue_audio_text": "bonito",
+    "base_sentence": "Este es el sector comercial.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Este es el sector bonito."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "adjective_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: singular to plural cascade with ser",
+    "cue_audio_text": "son",
+    "base_sentence": "Este es el sector bonito.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Estos son los sectores bonitos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "number_agreement",
+      "demonstrative_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: masculine to feminine cascade with noun",
+    "cue_audio_text": "partes",
+    "base_sentence": "Estos son los sectores bonitos.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Estas son las partes bonitas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "gender_agreement",
+      "demonstrative_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: plural to singular cascade",
+    "cue_audio_text": "Esta",
+    "base_sentence": "Estas son las partes bonitas.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Esta es la parte bonita."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "number_agreement",
+      "demonstrative_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: adjective swap",
+    "cue_audio_text": "tranquila",
+    "base_sentence": "Esta es la parte bonita.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Esta es la parte tranquila."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "adjective_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: article swap with una",
+    "cue_audio_text": "una",
+    "base_sentence": "Esta es la parte tranquila.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Esta es una parte tranquila."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "article"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: singular to plural cascade with noun",
+    "cue_audio_text": "calles",
+    "base_sentence": "Esta es una parte tranquila.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Estas son unas calles tranquilas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "number_agreement",
+      "demonstrative_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: gender cascade with noun in question",
+    "cue_audio_text": "calles",
+    "base_sentence": "Jean, ¿ves los cafés tan llenos?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Jean, ¿ves las calles tan llenas?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "gender_agreement",
+      "adjective_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: adjective swap in question",
+    "cue_audio_text": "estrechas",
+    "base_sentence": "Jean, ¿ves las calles tan llenas?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Jean, ¿ves las calles tan estrechas?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "adjective_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: plural to singular with demonstrative",
+    "cue_audio_text": "aquella",
+    "base_sentence": "Jean, ¿ves las calles tan estrechas?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Jean, ¿ves aquella calle tan estrecha?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "number_agreement",
+      "demonstrative"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: noun swap",
+    "cue_audio_text": "parte",
+    "base_sentence": "Jean, ¿ves aquella calle tan estrecha?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Jean, ¿ves aquella parte tan estrecha?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "noun_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: adjective swap",
+    "cue_audio_text": "antigua",
+    "base_sentence": "Jean, ¿ves aquella parte tan estrecha?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Jean, ¿ves aquella parte tan antigua?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "adjective_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: verb swap with recuerdas",
+    "cue_audio_text": "recuerdas",
+    "base_sentence": "Jean, ¿ves aquella parte tan antigua?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Jean, ¿recuerdas aquella parte tan antigua?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "verb_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: person change with verb conjugation cascade",
+    "cue_audio_text": "Señores",
+    "base_sentence": "Jean, ¿recuerdas aquella parte tan antigua?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Señores, ¿recuerdan aquella parte tan antigua?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "person_substitution",
+      "verb_conjugation"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: feminine to masculine gender cascade",
+    "cue_audio_text": "edificios",
+    "base_sentence": "Porque las calles allí son muy estrechas.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Porque los edificios allí son muy estrechos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "gender_agreement",
+      "adjective_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: location swap",
+    "cue_audio_text": "aquí",
+    "base_sentence": "Porque los edificios allí son muy antiguos.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Porque los edificios aquí son muy antiguos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "adverb_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: adjective swap",
+    "cue_audio_text": "sucios",
+    "base_sentence": "Porque muchos edificios aquí son muy antiguos.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Porque muchos edificios aquí son muy sucios."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "adjective_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: masculine to feminine cascade with noun",
+    "cue_audio_text": "casas",
+    "base_sentence": "Porque muchos edificios aquí son muy sucios.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Porque muchas casas aquí son muy sucias."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "gender_agreement",
+      "adjective_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "controlled_substitution",
+    "original_focus": "chain: plural to collective singular cascade",
+    "cue_audio_text": "gente",
+    "base_sentence": "Porque muchas casas aquí son muy sucias.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Porque mucha gente aquí es muy sucia."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "chain",
+      "collective_noun",
+      "number_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "structural_transformation",
+    "original_focus": "review: demonstrative singular to plural, irregular plural",
+    "cue_audio_text": "Este lápiz es verde.",
+    "base_sentence": "Este lápiz es verde.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Estos lápices son verdes."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstrative_agreement",
+      "number_transformation",
+      "irregular_plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 16",
+    "drill_type": "structural_transformation",
+    "original_focus": "review: demonstrative singular to plural with possessive",
+    "cue_audio_text": "Esa maleta es mía.",
+    "base_sentence": "Esa maleta es mía.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Esas maletas son mías."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstrative_agreement",
+      "number_transformation",
+      "possessive"
+    ],
+    "block_instruction": "Hágalo plural o singular: sustantivo"
+  }
+]

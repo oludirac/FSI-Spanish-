@@ -1,0 +1,520 @@
+[
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "constrained_response",
+    "original_focus": "pronouns after phrase relators: para mí vs para usted",
+    "cue_audio_text": "¿Esto es para mí o para usted?",
+    "base_sentence": "¿Esto es para mí o para usted?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Para usted.",
+      "Para mí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "pronouns",
+      "phrase_relator",
+      "para",
+      "response"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "constrained_response",
+    "original_focus": "pronouns after phrase relators: de ella vs de él",
+    "cue_audio_text": "¿Eso es de ella o de él?",
+    "base_sentence": "¿Eso es de ella o de él?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "De él.",
+      "De ella."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "pronouns",
+      "phrase_relator",
+      "de",
+      "response"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "constrained_response",
+    "original_focus": "pronouns after phrase relators: information question",
+    "cue_audio_text": "con nosotros. ¿Con quién van ellos?",
+    "base_sentence": "con nosotros. ¿Con quién van ellos?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Con nosotros."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "pronouns",
+      "phrase_relator",
+      "con",
+      "response"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "constrained_response",
+    "original_focus": "pronouns after phrase relators: negative correction",
+    "cue_audio_text": "para ellas. Las monedas, ¿son para nosotros?",
+    "base_sentence": "para ellas. Las monedas, ¿son para nosotros?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No, para ellas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "pronouns",
+      "phrase_relator",
+      "para",
+      "negation"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "constrained_response",
+    "original_focus": "pronouns after phrase relators: negative correction with con",
+    "cue_audio_text": "con él. ¿Usted va con ellos?",
+    "base_sentence": "con él. ¿Usted va con ellos?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No, con él."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "pronouns",
+      "phrase_relator",
+      "con",
+      "negation"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "constrained_response",
+    "original_focus": "pronouns after phrase relators: affirmative with para mí",
+    "cue_audio_text": "¿Esta habitación es para usted?",
+    "base_sentence": "¿Esta habitación es para usted?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, para mí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "pronouns",
+      "phrase_relator",
+      "para",
+      "mí"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "constrained_response",
+    "original_focus": "pronouns after phrase relators: conmigo confirmation",
+    "cue_audio_text": "¿Ella va conmigo?",
+    "base_sentence": "¿Ella va conmigo?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, con usted."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "pronouns",
+      "phrase_relator",
+      "conmigo",
+      "response"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: verb substitution in negation + existence pattern",
+    "cue_audio_text": "puedo",
+    "base_sentence": "No sé, no hay agua en mi apartamento.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "No puedo, no hay agua en mi apartamento."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "negation",
+      "verb_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: possessive to article",
+    "cue_audio_text": "el",
+    "base_sentence": "No puedo, no hay agua en mi apartamento.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "No puedo, no hay agua en el apartamento."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "article",
+      "possessive_swap"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: noun substitution with gender",
+    "cue_audio_text": "casa",
+    "base_sentence": "No puedo, no hay agua en el apartamento.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "No puedo, no hay agua en la casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "gender_agreement",
+      "noun_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: agua to nadie",
+    "cue_audio_text": "nadie",
+    "base_sentence": "No puedo, no hay agua en la casa.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "No puedo, no hay nadie en la casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "negation",
+      "nadie"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: demonstrative change with gender cascade",
+    "cue_audio_text": "aquella",
+    "base_sentence": "No creo, no hay nadie en la casa.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No creo, no hay nadie en aquella casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "demonstratives",
+      "aquella"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: gerund verb substitution with reflexive",
+    "cue_audio_text": "comprándome",
+    "base_sentence": "Yo estaba limpiándome la ropa.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Yo estaba comprándome la ropa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "progressive",
+      "reflexive",
+      "gerund"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: noun change with article agreement",
+    "cue_audio_text": "carro",
+    "base_sentence": "Yo estaba comprándome la ropa.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Yo estaba comprándome el carro."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "progressive",
+      "gender_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: article to indefinite with number substitution",
+    "cue_audio_text": "unos muebles",
+    "base_sentence": "Yo estaba comprándome el carro.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Yo estaba comprándome unos muebles."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "progressive",
+      "indefinite_article"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: gerund verb change",
+    "cue_audio_text": "haciéndome",
+    "base_sentence": "Yo estaba comprándome unos muebles.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Yo estaba haciéndome unos muebles."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "progressive",
+      "reflexive",
+      "gerund"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: time expression substitution",
+    "cue_audio_text": "bañarnos",
+    "base_sentence": "Apenas tenemos media hora para vestirnos.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Apenas tenemos media hora para bañarnos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "reflexive",
+      "infinitive",
+      "para"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: frequency adverb change",
+    "cue_audio_text": "Siempre",
+    "base_sentence": "Apenas tenemos una hora para bañarnos.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Siempre tenemos una hora para bañarnos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "adverb",
+      "frequency"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: tener que to hay que",
+    "cue_audio_text": "hay que",
+    "base_sentence": "Me voy entonces, tengo que comer.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Me voy entonces, hay que comer."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "tener_que",
+      "hay_que",
+      "impersonal"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: infinitive substitution",
+    "cue_audio_text": "trabajar",
+    "base_sentence": "Me voy entonces, hay que comer.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Me voy entonces, hay que trabajar."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "infinitive",
+      "hay_que"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: hay que to tenemos que with reflexive",
+    "cue_audio_text": "tenemos que",
+    "base_sentence": "Me voy entonces, hay que trabajar.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Me voy entonces, tenemos que trabajar."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "tener_que",
+      "first_person_plural"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: infinitive with reflexive pronoun adjustment",
+    "cue_audio_text": "vestirnos",
+    "base_sentence": "Me voy entonces, tenemos que trabajar.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Me voy entonces, tenemos que vestirnos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "reflexive",
+      "infinitive",
+      "tener_que"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: al salir temporal clause with verb change",
+    "cue_audio_text": "llegar",
+    "base_sentence": "Oye, al salir te llamo.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Oye, al llegar te llamo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "al_infinitive",
+      "temporal"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 12",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: main verb change in temporal pattern",
+    "cue_audio_text": "ayudo",
+    "base_sentence": "Oye, al llegar te llamo.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Oye, al llegar te ayudo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "al_infinitive",
+      "verb_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  }
+]

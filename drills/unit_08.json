@@ -1,0 +1,782 @@
+[
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: plural to singular, regular -ir verbs",
+    "cue_audio_text": "Escribimos en la escuela.",
+    "base_sentence": "Escribimos en la escuela.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Escribo en la escuela."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "number_agreement",
+      "ir_verbs",
+      "present_tense",
+      "singular"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: plural to singular, regular -ir verbs",
+    "cue_audio_text": "Viven lejos del centro.",
+    "base_sentence": "Viven lejos del centro.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Vive lejos del centro."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "number_agreement",
+      "ir_verbs",
+      "present_tense",
+      "singular"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: singular to plural, regular -ir verbs",
+    "cue_audio_text": "Subo en el ascensor.",
+    "base_sentence": "Subo en el ascensor.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Subimos en el ascensor."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "number_agreement",
+      "ir_verbs",
+      "present_tense",
+      "plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: singular to plural, regular -ir verbs",
+    "cue_audio_text": "No abre el libro.",
+    "base_sentence": "No abre el libro.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No abren el libro."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "number_agreement",
+      "ir_verbs",
+      "present_tense",
+      "plural",
+      "negation"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: plural to singular, regular -ir verbs",
+    "cue_audio_text": "Suben menos ahora.",
+    "base_sentence": "Suben menos ahora.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sube menos ahora."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "number_agreement",
+      "ir_verbs",
+      "present_tense",
+      "singular"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -ir verb conjugation",
+    "cue_audio_text": "Antonio",
+    "base_sentence": "Yo vivo lejos de aquí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Antonio vive lejos de aquí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "ir_verbs",
+      "present_tense",
+      "conjugation",
+      "third_person"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -ir verb conjugation",
+    "cue_audio_text": "Alicia y yo",
+    "base_sentence": "Yo vivo lejos de aquí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Alicia y yo vivimos lejos de aquí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "ir_verbs",
+      "present_tense",
+      "conjugation",
+      "first_person_plural"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -ir verb conjugation",
+    "cue_audio_text": "ellos",
+    "base_sentence": "Yo vivo lejos de aquí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ellos viven lejos de aquí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "ir_verbs",
+      "present_tense",
+      "conjugation",
+      "third_person_plural"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -ir verb conjugation",
+    "cue_audio_text": "yo",
+    "base_sentence": "Él escribe solo en inglés.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Yo escribo solo en inglés."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "ir_verbs",
+      "present_tense",
+      "conjugation",
+      "first_person"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -ir verb conjugation",
+    "cue_audio_text": "nosotros",
+    "base_sentence": "Él escribe solo en inglés.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Nosotros escribimos solo en inglés."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "ir_verbs",
+      "present_tense",
+      "conjugation",
+      "first_person_plural"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -ir verb conjugation",
+    "cue_audio_text": "yo",
+    "base_sentence": "Ellos abren la Embajada.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Yo abro la Embajada."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "ir_verbs",
+      "present_tense",
+      "conjugation",
+      "first_person"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -ir verb conjugation",
+    "cue_audio_text": "nosotros",
+    "base_sentence": "Ellos abren la Embajada.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Nosotros abrimos la Embajada."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "ir_verbs",
+      "present_tense",
+      "conjugation",
+      "first_person_plural"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: -ir verbs, alternative question",
+    "cue_audio_text": "¿Escribe usted en español o en inglés?",
+    "base_sentence": "¿Escribe usted en español o en inglés?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Escribo en inglés.",
+      "Escribo en español."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "ir_verbs",
+      "present_tense",
+      "response",
+      "first_person"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: -ir verbs, alternative question",
+    "cue_audio_text": "¿Viven ustedes en un apartamento o en una casa?",
+    "base_sentence": "¿Viven ustedes en un apartamento o en una casa?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Vivimos en una casa.",
+      "Vivimos en un apartamento."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "ir_verbs",
+      "present_tense",
+      "response",
+      "first_person_plural"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: -ir verbs, information question",
+    "cue_audio_text": "en el centro. ¿Dónde vive usted?",
+    "base_sentence": "en el centro. ¿Dónde vive usted?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Vivo en el centro."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "ir_verbs",
+      "present_tense",
+      "response",
+      "first_person"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: -ir verbs, negative correction",
+    "cue_audio_text": "en español. ¿Escriben ustedes en inglés?",
+    "base_sentence": "en español. ¿Escriben ustedes en inglés?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No, escribimos en español."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "ir_verbs",
+      "present_tense",
+      "response",
+      "negation"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: -ir verbs, negative correction",
+    "cue_audio_text": "en un apartamento. ¿Vive ella en una casa?",
+    "base_sentence": "en un apartamento. ¿Vive ella en una casa?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No, vive en un apartamento."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "ir_verbs",
+      "present_tense",
+      "response",
+      "negation"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: -ir verbs, confirmation",
+    "cue_audio_text": "¿Abre él la Embajada?",
+    "base_sentence": "¿Abre él la Embajada?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, abre la Embajada."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "ir_verbs",
+      "present_tense",
+      "response",
+      "affirmation"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution with obligatory contractions: singular to plural",
+    "cue_audio_text": "Quieren presentarle al señor.",
+    "base_sentence": "Quieren presentarle al señor.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Quieren presentarle a los señores."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "contractions",
+      "al_del",
+      "number_agreement",
+      "plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution with obligatory contractions: singular to plural",
+    "cue_audio_text": "La llave del cuarto.",
+    "base_sentence": "La llave del cuarto.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "La llave de los cuartos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "contractions",
+      "al_del",
+      "number_agreement",
+      "plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution with obligatory contractions: plural to singular",
+    "cue_audio_text": "La casa es de los señores.",
+    "base_sentence": "La casa es de los señores.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "La casa es del señor."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "contractions",
+      "al_del",
+      "number_agreement",
+      "singular"
+    ],
+    "block_instruction": "Hágalo plural o singular: sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution with obligatory contractions: plural to singular",
+    "cue_audio_text": "Llévenos a los restaurantes.",
+    "base_sentence": "Llévenos a los restaurantes.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Llévenos al restaurante."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "contractions",
+      "al_del",
+      "number_agreement",
+      "singular"
+    ],
+    "block_instruction": "Hágalo plural o singular: sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "item substitution triggering contraction change",
+    "cue_audio_text": "hotel",
+    "base_sentence": "Van a la Embajada.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Van al hotel."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "contractions",
+      "al_del",
+      "item_substitution"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "item substitution triggering contraction change",
+    "cue_audio_text": "agencia",
+    "base_sentence": "Vamos al centro.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Vamos a la agencia."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "contractions",
+      "al_del",
+      "item_substitution"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "item substitution triggering contraction change",
+    "cue_audio_text": "señor",
+    "base_sentence": "El hotel es de la señora.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "El hotel es del señor."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "contractions",
+      "al_del",
+      "item_substitution"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "item substitution triggering contraction change",
+    "cue_audio_text": "patio",
+    "base_sentence": "El cuarto da a la calle.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "El cuarto da al patio."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "contractions",
+      "al_del",
+      "item_substitution"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "item substitution triggering contraction change",
+    "cue_audio_text": "señorita",
+    "base_sentence": "Quiero presentarle al señor.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Quiero presentarle a la señorita."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "contractions",
+      "al_del",
+      "item_substitution"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: one-slot substitution with agreement",
+    "cue_audio_text": "casa",
+    "base_sentence": "Viven en un apartamento.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Viven en una casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "gender_agreement",
+      "indefinite_article"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: verb substitution with person agreement",
+    "cue_audio_text": "Vivimos",
+    "base_sentence": "Viven en una casa.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Vivimos en una casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "conjugation",
+      "first_person_plural"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: demonstrative swap with agreement",
+    "cue_audio_text": "ese",
+    "base_sentence": "Trabajamos en este hotel.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Trabajamos en ese hotel."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "demonstratives"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: noun substitution with gender cascade",
+    "cue_audio_text": "embajada",
+    "base_sentence": "Trabajamos en ese hotel.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Trabajamos en esa embajada."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "gender_agreement",
+      "demonstratives"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: noun substitution with gender cascade",
+    "cue_audio_text": "libro",
+    "base_sentence": "Es una revista mala.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Es un libro malo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "gender_agreement",
+      "noun_adjective",
+      "masculine"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: noun substitution with gender cascade",
+    "cue_audio_text": "escritorio",
+    "base_sentence": "Es una silla buena.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Es un escritorio bueno."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "gender_agreement",
+      "noun_adjective",
+      "masculine"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: noun substitution with gender cascade",
+    "cue_audio_text": "apartamento",
+    "base_sentence": "Tiene una casa vieja.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Tiene un apartamento viejo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "gender_agreement",
+      "noun_adjective",
+      "masculine"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: noun substitution with gender cascade",
+    "cue_audio_text": "apartamento",
+    "base_sentence": "Tiene una casa cara.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Tiene un apartamento caro."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "gender_agreement",
+      "noun_adjective",
+      "masculine"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 8",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: noun substitution with gender cascade",
+    "cue_audio_text": "apartamento",
+    "base_sentence": "Vivo en una casa cómoda.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Vivo en un apartamento cómodo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "gender_agreement",
+      "noun_adjective",
+      "masculine"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  }
+]

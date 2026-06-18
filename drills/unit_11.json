@@ -1,0 +1,664 @@
+[
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive number: singular to plural",
+    "cue_audio_text": "Él tiene mi vaso.",
+    "base_sentence": "Él tiene mi vaso.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Él tiene mis vasos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "mi",
+      "number_agreement",
+      "plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: posesivo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive number: singular to plural",
+    "cue_audio_text": "Yo tengo su esfero.",
+    "base_sentence": "Yo tengo su esfero.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Yo tengo sus esferos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "su",
+      "number_agreement",
+      "plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: posesivo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive number: singular to plural with nuestro",
+    "cue_audio_text": "Ellos viven en nuestro edificio.",
+    "base_sentence": "Ellos viven en nuestro edificio.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ellos viven en nuestros edificios."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "nuestro",
+      "number_agreement",
+      "plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: posesivo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive number: plural to singular with nuestro",
+    "cue_audio_text": "Ellas comen en nuestras mesas.",
+    "base_sentence": "Ellas comen en nuestras mesas.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ellas comen en nuestra mesa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "nuestro",
+      "number_agreement",
+      "singular"
+    ],
+    "block_instruction": "Hágalo plural o singular: posesivo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive number: plural to singular",
+    "cue_audio_text": "Ella tiene mis maletas.",
+    "base_sentence": "Ella tiene mis maletas.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ella tiene mi maleta."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "mi",
+      "number_agreement",
+      "singular"
+    ],
+    "block_instruction": "Hágalo plural o singular: posesivo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "possessive form substitution: article to mi",
+    "cue_audio_text": "mi",
+    "base_sentence": "Esta es la maleta.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Esta es mi maleta."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "mi",
+      "form_substitution"
+    ],
+    "block_instruction": "Sustitución: cambie el posesivo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "possessive form substitution: mi to su",
+    "cue_audio_text": "su",
+    "base_sentence": "Esta es mi maleta.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Esta es su maleta."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "su",
+      "form_substitution"
+    ],
+    "block_instruction": "Sustitución: cambie el posesivo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "possessive form substitution: su to nuestro with gender",
+    "cue_audio_text": "nuestro",
+    "base_sentence": "Este es su cuarto.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Este es nuestro cuarto."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "nuestro",
+      "form_substitution"
+    ],
+    "block_instruction": "Sustitución: cambie el posesivo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "possessive form substitution: plural with nuestro",
+    "cue_audio_text": "nuestros",
+    "base_sentence": "Estos son sus vecinos.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Estos son nuestros vecinos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "nuestro",
+      "form_substitution",
+      "plural"
+    ],
+    "block_instruction": "Sustitución: cambie el posesivo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "structural_transformation",
+    "original_focus": "affirmative to negative transformation",
+    "cue_audio_text": "Tengo hambre.",
+    "base_sentence": "Tengo hambre.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No tengo hambre."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "negation",
+      "no",
+      "present_tense"
+    ],
+    "block_instruction": "Transformación: hágalo negativo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "structural_transformation",
+    "original_focus": "affirmative to negative: no before verb, not before clitic+verb",
+    "cue_audio_text": "Me gusta eso.",
+    "base_sentence": "Me gusta eso.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No me gusta eso."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "negation",
+      "no",
+      "clitic",
+      "gustar"
+    ],
+    "block_instruction": "Transformación: hágalo negativo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "structural_transformation",
+    "original_focus": "affirmative to negative: no before verb",
+    "cue_audio_text": "La señora habla español.",
+    "base_sentence": "La señora habla español.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "La señora no habla español."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "negation",
+      "no",
+      "present_tense"
+    ],
+    "block_instruction": "Transformación: hágalo negativo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "structural_transformation",
+    "original_focus": "affirmative to negative: no before estar",
+    "cue_audio_text": "El sábado estoy ocupado.",
+    "base_sentence": "El sábado estoy ocupado.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "El sábado no estoy ocupado."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "negation",
+      "no",
+      "estar"
+    ],
+    "block_instruction": "Transformación: hágalo negativo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "structural_transformation",
+    "original_focus": "affirmative to negative: no before haber in present perfect",
+    "cue_audio_text": "He trabajado demasiado.",
+    "base_sentence": "He trabajado demasiado.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No he trabajado demasiado."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "negation",
+      "no",
+      "present_perfect"
+    ],
+    "block_instruction": "Transformación: hágalo negativo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "structural_transformation",
+    "original_focus": "affirmative to negative: no before conjugated verb",
+    "cue_audio_text": "Practican bastante.",
+    "base_sentence": "Practican bastante.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No practican bastante."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "negation",
+      "no",
+      "present_tense"
+    ],
+    "block_instruction": "Transformación: hágalo negativo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "structural_transformation",
+    "original_focus": "affirmative to negative: no before estar with subject",
+    "cue_audio_text": "Juan está muy agradecido.",
+    "base_sentence": "Juan está muy agradecido.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Juan no está muy agradecido."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "negation",
+      "no",
+      "estar",
+      "past_participle"
+    ],
+    "block_instruction": "Transformación: hágalo negativo"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: possessive pronoun to noun phrase",
+    "cue_audio_text": "cuarto",
+    "base_sentence": "¿Puede limpiar el mío también?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "¿Puede limpiar el cuarto también?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "possessive",
+      "nominalization"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: possessive to shortened possessive + noun",
+    "cue_audio_text": "mi",
+    "base_sentence": "¿Puede limpiar el cuarto también?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "¿Puede limpiar mi cuarto también?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "possessive",
+      "mi"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: verb substitution",
+    "cue_audio_text": "barrer",
+    "base_sentence": "¿Puede limpiar mi cuarto ahora?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "¿Puede barrer mi cuarto ahora?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "verb_substitution",
+      "infinitive"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: demonstrative for possessive",
+    "cue_audio_text": "este",
+    "base_sentence": "¿Puede barrer mi cuarto ahora?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "¿Puede barrer este cuarto ahora?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "demonstratives",
+      "possessive_swap"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: possessive with long/short forms and agreement",
+    "cue_audio_text": "Los suyos",
+    "base_sentence": "El suyo es más grande, ¿no?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Los suyos son más grandes, ¿no?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "suyo",
+      "number_agreement",
+      "nominalization"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: possessive long form agreement cascade",
+    "cue_audio_text": "Las mías",
+    "base_sentence": "Las suyas son más bonitas, ¿no?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Las mías son más bonitas, ¿no?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "mío",
+      "feminine_plural",
+      "nominalization"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: possessive + adjective agreement cascade",
+    "cue_audio_text": "Mi casa",
+    "base_sentence": "Esto está bastante sucio.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Mi casa está bastante sucia."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "possessive",
+      "gender_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: noun + adjective agreement cascade",
+    "cue_audio_text": "trajes",
+    "base_sentence": "Mi casa está bastante sucia.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Mis trajes están bastante sucios."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "possessive",
+      "gender_agreement",
+      "number_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: adjective intensifier change",
+    "cue_audio_text": "muy",
+    "base_sentence": "Mis trajes están bastante sucios.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Mis trajes están muy sucios."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "intensifier",
+      "adjective"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: adjective substitution with agreement",
+    "cue_audio_text": "nuevos",
+    "base_sentence": "Mis trajes están muy sucios.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Mis trajes están muy nuevos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "adjective",
+      "estar"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: possessive change with agreement cascade",
+    "cue_audio_text": "Sus",
+    "base_sentence": "Mis trajes están muy nuevos.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Sus trajes están muy nuevos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "possessive",
+      "su"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: noun substitution with gender cascade",
+    "cue_audio_text": "camisas",
+    "base_sentence": "Sus trajes están muy nuevos.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Sus camisas están muy nuevas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "gender_agreement",
+      "feminine"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: hay que + infinitive question word change",
+    "cue_audio_text": "comprar",
+    "base_sentence": "¿Qué tengo que hacer?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "¿Qué tengo que comprar?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "tener_que",
+      "infinitive"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: tener que to hay que",
+    "cue_audio_text": "hay",
+    "base_sentence": "¿Qué tengo que comprar?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "¿Qué hay que comprar?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "hay_que",
+      "impersonal"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 11",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: question word cuánto for qué",
+    "cue_audio_text": "Cuánto",
+    "base_sentence": "¿Qué hay que comprar?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "¿Cuánto hay que comprar?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "question_word",
+      "cuánto"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  }
+]

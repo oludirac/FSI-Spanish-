@@ -1,0 +1,790 @@
+[
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "present perfect: person substitution of haber",
+    "cue_audio_text": "Carmen",
+    "base_sentence": "Yo he aprendido mucho aquí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Carmen ha aprendido mucho aquí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "haber",
+      "conjugation",
+      "third_person"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "present perfect: person substitution of haber",
+    "cue_audio_text": "ellos",
+    "base_sentence": "Yo he aprendido mucho aquí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ellos han aprendido mucho aquí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "haber",
+      "conjugation",
+      "third_person_plural"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "present perfect: person substitution of haber",
+    "cue_audio_text": "nosotros",
+    "base_sentence": "Antonio no ha encontrado casa.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Nosotros no hemos encontrado casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "haber",
+      "conjugation",
+      "first_person_plural"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "present perfect: person substitution of haber",
+    "cue_audio_text": "yo",
+    "base_sentence": "Ellos han vivido allí también.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Yo he vivido allí también."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "haber",
+      "conjugation",
+      "first_person"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "present perfect: person substitution of haber",
+    "cue_audio_text": "Luisa",
+    "base_sentence": "Nosotros hemos comido demasiado.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Luisa ha comido demasiado."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "haber",
+      "conjugation",
+      "third_person"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "structural_transformation",
+    "original_focus": "present tense to present perfect transformation",
+    "cue_audio_text": "presente perfecto",
+    "base_sentence": "No busco casa.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No he buscado casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "tense_change",
+      "ar_verb",
+      "first_person"
+    ],
+    "block_instruction": "Transformación: páselo al presente perfecto"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "structural_transformation",
+    "original_focus": "present tense to present perfect transformation",
+    "cue_audio_text": "presente perfecto",
+    "base_sentence": "Trabajamos demasiado.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Hemos trabajado demasiado."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "tense_change",
+      "ar_verb",
+      "first_person_plural"
+    ],
+    "block_instruction": "Transformación: páselo al presente perfecto"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "structural_transformation",
+    "original_focus": "present tense to present perfect transformation",
+    "cue_audio_text": "presente perfecto",
+    "base_sentence": "No deciden eso.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No han decidido eso."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "tense_change",
+      "ir_verb",
+      "third_person_plural"
+    ],
+    "block_instruction": "Transformación: páselo al presente perfecto"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "structural_transformation",
+    "original_focus": "present tense to present perfect transformation",
+    "cue_audio_text": "presente perfecto",
+    "base_sentence": "Cree todo.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ha creído todo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "tense_change",
+      "er_verb",
+      "third_person",
+      "accent_on_participle"
+    ],
+    "block_instruction": "Transformación: páselo al presente perfecto"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "structural_transformation",
+    "original_focus": "present tense to present perfect transformation",
+    "cue_audio_text": "presente perfecto",
+    "base_sentence": "Alquilo una habitación.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "He alquilado una habitación."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "tense_change",
+      "ar_verb",
+      "first_person"
+    ],
+    "block_instruction": "Transformación: páselo al presente perfecto"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "structural_transformation",
+    "original_focus": "present tense to present perfect transformation",
+    "cue_audio_text": "presente perfecto",
+    "base_sentence": "Subimos en el ascensor.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Hemos subido en el ascensor."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "tense_change",
+      "ir_verb",
+      "first_person_plural"
+    ],
+    "block_instruction": "Transformación: páselo al presente perfecto"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "structural_transformation",
+    "original_focus": "present tense to present perfect transformation",
+    "cue_audio_text": "presente perfecto",
+    "base_sentence": "Come en la sala.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ha comido en la sala."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "tense_change",
+      "er_verb",
+      "third_person"
+    ],
+    "block_instruction": "Transformación: páselo al presente perfecto"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "constrained_response",
+    "original_focus": "present perfect: cued negative response with antonym",
+    "cue_audio_text": "caro",
+    "base_sentence": "¿Ha encontrado usted todo barato?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No, he encontrado todo muy caro."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "response",
+      "negation",
+      "adjective"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "constrained_response",
+    "original_focus": "present perfect: cued negative response with substitution",
+    "cue_audio_text": "apartamento",
+    "base_sentence": "¿Han alquilado ustedes una casa?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No, hemos alquilado un apartamento."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "response",
+      "negation",
+      "noun_substitution"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "constrained_response",
+    "original_focus": "present perfect: cued negative response with substitution",
+    "cue_audio_text": "inglés",
+    "base_sentence": "¿Han hablado ellos en español?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No, han hablado en inglés."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "response",
+      "negation",
+      "language"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "constrained_response",
+    "original_focus": "present perfect: cued negative response with antonym",
+    "cue_audio_text": "buena",
+    "base_sentence": "¿Ha estado mala la sopa?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No, ha estado muy buena."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "response",
+      "negation",
+      "adjective"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "constrained_response",
+    "original_focus": "present perfect: affirmative confirmation",
+    "cue_audio_text": "¿Ha estado usted en San Francisco?",
+    "base_sentence": "¿Ha estado usted en San Francisco?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, he estado.",
+      "Sí, sí he estado."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "response",
+      "affirmation"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "constrained_response",
+    "original_focus": "present perfect: affirmative confirmation with elaboration",
+    "cue_audio_text": "¿Han trabajado ustedes mucho?",
+    "base_sentence": "¿Han trabajado ustedes mucho?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, hemos trabajado demasiado.",
+      "Sí, hemos trabajado mucho."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "present_perfect",
+      "response",
+      "affirmation",
+      "first_person_plural"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "possessive adjective form substitution: mío to suyo",
+    "cue_audio_text": "suyo",
+    "base_sentence": "Este carro es mío.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Este carro es suyo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "full_form",
+      "masculine_singular"
+    ],
+    "block_instruction": "Sustitución: cambie el posesivo"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "possessive adjective form substitution: míos to nuestros",
+    "cue_audio_text": "nuestros",
+    "base_sentence": "Estos muebles son míos.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Estos muebles son nuestros."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "full_form",
+      "masculine_plural"
+    ],
+    "block_instruction": "Sustitución: cambie el posesivo"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "possessive adjective form substitution: mía to nuestra",
+    "cue_audio_text": "nuestra",
+    "base_sentence": "Esta casa es mía.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Esta casa es nuestra."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "full_form",
+      "feminine_singular"
+    ],
+    "block_instruction": "Sustitución: cambie el posesivo"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "possessive adjective form substitution: mías to suyas",
+    "cue_audio_text": "suyas",
+    "base_sentence": "Estas monedas son mías.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Estas monedas son suyas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "full_form",
+      "feminine_plural"
+    ],
+    "block_instruction": "Sustitución: cambie el posesivo"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive with number substitution: singular to plural",
+    "cue_audio_text": "billetes",
+    "base_sentence": "Este billete es mío.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Estos billetes son míos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "singular_to_plural",
+      "demonstrative_agreement",
+      "verb_agreement"
+    ],
+    "block_instruction": "Transformación: cambie al número indicado"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive with number substitution: singular to plural",
+    "cue_audio_text": "cheques",
+    "base_sentence": "Este cheque es suyo.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Estos cheques son suyos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "singular_to_plural",
+      "demonstrative_agreement",
+      "verb_agreement"
+    ],
+    "block_instruction": "Transformación: cambie al número indicado"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive with number substitution: plural to singular",
+    "cue_audio_text": "llave",
+    "base_sentence": "Estas llaves son suyas.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Esta llave es suya."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "plural_to_singular",
+      "demonstrative_agreement",
+      "verb_agreement"
+    ],
+    "block_instruction": "Transformación: cambie al número indicado"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive with number substitution: plural to singular",
+    "cue_audio_text": "foto",
+    "base_sentence": "Estas fotos son nuestras.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Esta foto es nuestra."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "plural_to_singular",
+      "demonstrative_agreement",
+      "verb_agreement"
+    ],
+    "block_instruction": "Transformación: cambie al número indicado"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "possessive item substitution with gender agreement",
+    "cue_audio_text": "apartamento",
+    "base_sentence": "Esa casa es suya.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ese apartamento es suyo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "gender_agreement",
+      "demonstrative_agreement",
+      "noun_substitution"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "possessive item substitution with gender agreement",
+    "cue_audio_text": "agencia",
+    "base_sentence": "Este hotel es nuestro.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Esta agencia es nuestra."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "gender_agreement",
+      "demonstrative_agreement",
+      "noun_substitution"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "possessive item substitution with gender and number agreement",
+    "cue_audio_text": "cosas",
+    "base_sentence": "Estos muebles son suyos.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Estas cosas son suyas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "gender_agreement",
+      "demonstrative_agreement",
+      "noun_substitution"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "possessive item substitution with gender and number agreement",
+    "cue_audio_text": "periódicos",
+    "base_sentence": "Estas llaves son mías.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Estos periódicos son míos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "gender_agreement",
+      "demonstrative_agreement",
+      "noun_substitution"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "constrained_response",
+    "original_focus": "possessive: choose from alternatives",
+    "cue_audio_text": "Este libro, ¿es mío o suyo?",
+    "base_sentence": "Este libro, ¿es mío o suyo?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Es suyo.",
+      "Es mío."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "response",
+      "choice"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "constrained_response",
+    "original_focus": "possessive: affirm ownership switching perspective",
+    "cue_audio_text": "¿Es suyo ese carro?",
+    "base_sentence": "¿Es suyo ese carro?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, es mío."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "response",
+      "affirmation",
+      "perspective_switch"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "constrained_response",
+    "original_focus": "possessive: affirm ownership switching perspective (plural)",
+    "cue_audio_text": "¿Son mías estas monedas?",
+    "base_sentence": "¿Son mías estas monedas?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, son suyas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "response",
+      "affirmation",
+      "perspective_switch",
+      "feminine_plural"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: noun with demonstrative agreement",
+    "cue_audio_text": "casa",
+    "base_sentence": "¿Va a ser mi apartamento como este?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿Va a ser mi casa como esta?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement_drill",
+      "demonstrative_agreement",
+      "gender_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: verb substitution in infinitive",
+    "cue_audio_text": "ver",
+    "base_sentence": "Todavía necesito comprar muchas cosas.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Todavía necesito ver muchas cosas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement_drill",
+      "verb_substitution",
+      "infinitive"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 9",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: object substitution",
+    "cue_audio_text": "nada",
+    "base_sentence": "No hemos decidido la fecha todavía.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No hemos decidido nada todavía."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement_drill",
+      "object_substitution",
+      "present_perfect"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  }
+]

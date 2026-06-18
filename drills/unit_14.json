@@ -1,0 +1,787 @@
+[
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: 1pl → 1sg, irregular verb dar",
+    "cue_audio_text": "Damos propina.",
+    "base_sentence": "Damos propina.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Doy propina."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "irregular_verbs",
+      "dar",
+      "number_agreement",
+      "present_tense"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: 1sg → 1pl, irregular verb ver",
+    "cue_audio_text": "Veo los anuncios.",
+    "base_sentence": "Veo los anuncios.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Vemos los anuncios."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "irregular_verbs",
+      "ver",
+      "number_agreement",
+      "present_tense"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: 1pl → 1sg, irregular verb ir",
+    "cue_audio_text": "Vamos a la tintorería.",
+    "base_sentence": "Vamos a la tintorería.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Voy a la tintorería."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "irregular_verbs",
+      "ir",
+      "number_agreement",
+      "present_tense"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: 1sg → 1pl, irregular verb dar",
+    "cue_audio_text": "Doy demasiado.",
+    "base_sentence": "Doy demasiado.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Damos demasiado."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "irregular_verbs",
+      "dar",
+      "number_agreement",
+      "present_tense"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: 2-3pl → 2-3sg, irregular verb ver",
+    "cue_audio_text": "Ven el periódico.",
+    "base_sentence": "Ven el periódico.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ve el periódico."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "irregular_verbs",
+      "ver",
+      "number_agreement",
+      "present_tense"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: yo → María, irregular verb dar",
+    "cue_audio_text": "María",
+    "base_sentence": "Yo doy la ropa vieja.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "María da la ropa vieja."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "irregular_verbs",
+      "dar",
+      "person_number",
+      "present_tense"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: María → Juan y yo, irregular verb dar",
+    "cue_audio_text": "Juan y yo",
+    "base_sentence": "María da la ropa vieja.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Juan y yo damos la ropa vieja."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "irregular_verbs",
+      "dar",
+      "person_number",
+      "present_tense"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: nosotros → ella, irregular verb ir",
+    "cue_audio_text": "Ella",
+    "base_sentence": "Nosotros vamos esta noche.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ella va esta noche."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "irregular_verbs",
+      "ir",
+      "person_number",
+      "present_tense"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "constrained_response",
+    "original_focus": "response: choice question with ir",
+    "cue_audio_text": "¿Va usted al centro o a su casa?",
+    "base_sentence": "¿Va usted al centro o a su casa?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Voy al centro.",
+      "Voy a mi casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "irregular_verbs",
+      "ir",
+      "response",
+      "present_tense"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "constrained_response",
+    "original_focus": "response: choice question with ver",
+    "cue_audio_text": "¿Ven ustedes los anuncios o las fotos?",
+    "base_sentence": "¿Ven ustedes los anuncios o las fotos?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Vemos las fotos.",
+      "Vemos los anuncios."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "irregular_verbs",
+      "ver",
+      "response",
+      "present_tense"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "constrained_response",
+    "original_focus": "response: wh-question with ver, cued answer",
+    "cue_audio_text": "los anuncios. ¿Qué ve usted?",
+    "base_sentence": "los anuncios. ¿Qué ve usted?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Veo los anuncios."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "irregular_verbs",
+      "ver",
+      "response",
+      "present_tense"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "constrained_response",
+    "original_focus": "response: negative correction with ir",
+    "cue_audio_text": "a las ocho. ¿Va usted a las nueve?",
+    "base_sentence": "a las ocho. ¿Va usted a las nueve?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No, voy a las ocho."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "irregular_verbs",
+      "ir",
+      "response",
+      "negation",
+      "time"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "constrained_response",
+    "original_focus": "response: affirmative with clitic, dar",
+    "cue_audio_text": "¿Dan ustedes los trajes viejos?",
+    "base_sentence": "¿Dan ustedes los trajes viejos?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, los damos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "irregular_verbs",
+      "dar",
+      "response",
+      "clitic",
+      "lo"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "constrained_response",
+    "original_focus": "response: affirmative with clitic, dar 1sg",
+    "cue_audio_text": "¿Da usted las camisas viejas?",
+    "base_sentence": "¿Da usted las camisas viejas?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, las doy."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "irregular_verbs",
+      "dar",
+      "response",
+      "clitic",
+      "la"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "structural_transformation",
+    "original_focus": "construction substitution: present → periphrastic future ir+a+inf",
+    "cue_audio_text": "Como bastante.",
+    "base_sentence": "Como bastante.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Voy a comer bastante."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "periphrastic_future",
+      "ir_a_infinitive",
+      "construction_substitution"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "structural_transformation",
+    "original_focus": "construction substitution: present → periphrastic future ir+a+inf",
+    "cue_audio_text": "Tomamos vino.",
+    "base_sentence": "Tomamos vino.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Vamos a tomar vino."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "periphrastic_future",
+      "ir_a_infinitive",
+      "construction_substitution"
+    ],
+    "block_instruction": "Transformación: páselo al futuro con ir a"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "structural_transformation",
+    "original_focus": "construction substitution: present → periphrastic future ir+a+inf",
+    "cue_audio_text": "Suben en el ascensor.",
+    "base_sentence": "Suben en el ascensor.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Van a subir en el ascensor."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "periphrastic_future",
+      "ir_a_infinitive",
+      "construction_substitution"
+    ],
+    "block_instruction": "Transformación: páselo al futuro con ir a"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "structural_transformation",
+    "original_focus": "construction substitution: present → periphrastic future ir+a+inf",
+    "cue_audio_text": "Baila ahí.",
+    "base_sentence": "Baila ahí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Va a bailar ahí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "periphrastic_future",
+      "ir_a_infinitive",
+      "construction_substitution"
+    ],
+    "block_instruction": "Transformación: páselo al futuro con ir a"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "structural_transformation",
+    "original_focus": "construction substitution: present → periphrastic future ir+a+inf",
+    "cue_audio_text": "Vivo enfrente.",
+    "base_sentence": "Vivo enfrente.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Voy a vivir enfrente."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "periphrastic_future",
+      "ir_a_infinitive",
+      "construction_substitution"
+    ],
+    "block_instruction": "Transformación: páselo al futuro con ir a"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "structural_transformation",
+    "original_focus": "construction substitution: present → periphrastic future ir+a+inf",
+    "cue_audio_text": "Estudiamos en el cuarto.",
+    "base_sentence": "Estudiamos en el cuarto.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Vamos a estudiar en el cuarto."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "periphrastic_future",
+      "ir_a_infinitive",
+      "construction_substitution"
+    ],
+    "block_instruction": "Transformación: páselo al futuro con ir a"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution in periphrastic future: yo → usted",
+    "cue_audio_text": "usted",
+    "base_sentence": "Yo voy a traducir.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Usted va a traducir."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "periphrastic_future",
+      "ir_a_infinitive",
+      "person_number"
+    ],
+    "block_instruction": "Transformación: páselo al futuro con ir a"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution in periphrastic future: usted → Juan y yo",
+    "cue_audio_text": "Juan y yo",
+    "base_sentence": "Usted va a traducir.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Juan y yo vamos a traducir."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "periphrastic_future",
+      "ir_a_infinitive",
+      "person_number"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "constrained_response",
+    "original_focus": "response: choice question with periphrastic future",
+    "cue_audio_text": "¿Va usted a trabajar o a estudiar?",
+    "base_sentence": "¿Va usted a trabajar o a estudiar?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Voy a trabajar."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "periphrastic_future",
+      "ir_a_infinitive",
+      "response"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "constrained_response",
+    "original_focus": "response: wh-question with periphrastic future, cued answer",
+    "cue_audio_text": "¿Qué van a hacer ellos?",
+    "base_sentence": "¿Qué van a hacer ellos?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Van a escribir.",
+      "Voy a estudiar."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "periphrastic_future",
+      "ir_a_infinitive",
+      "response"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "constrained_response",
+    "original_focus": "response: affirmative with clitic + periphrastic future",
+    "cue_audio_text": "escribir. ¿Qué van a hacer ellos?",
+    "base_sentence": "escribir. ¿Qué van a hacer ellos?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, voy a llevarlo.",
+      "Sí, lo voy a llevar."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "periphrastic_future",
+      "ir_a_infinitive",
+      "response",
+      "clitic"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: adjective with gender agreement, estar",
+    "cue_audio_text": "señores",
+    "base_sentence": "¿Está contento aquí, Coronel?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿Están contentos aquí, señores?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "estar",
+      "adjective_agreement",
+      "number"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: adjective change with gender cascade",
+    "cue_audio_text": "ocupados",
+    "base_sentence": "¿Están contentos ahora, señores?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "¿Están ocupados ahora, señores?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "estar",
+      "adjective"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: gender cascade with señoritas",
+    "cue_audio_text": "señoritas",
+    "base_sentence": "¿Están ocupados ahora, señores?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "¿Están ocupadas ahora, señoritas?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "estar",
+      "adjective_agreement",
+      "gender"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: singular vocative with gender cascade",
+    "cue_audio_text": "José",
+    "base_sentence": "¿Están desocupadas ahora, señoritas?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿Está desocupado ahora, José?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "estar",
+      "adjective_agreement",
+      "number",
+      "gender"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: number substitution in llegar with possessive",
+    "cue_audio_text": "amigos",
+    "base_sentence": "Además, mañana llega mi familia.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Además, mañana llegan mis amigos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "llegar",
+      "number_agreement",
+      "possessive"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: possessive change mis → sus",
+    "cue_audio_text": "sus",
+    "base_sentence": "Además, mañana llegan mis amigos.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Además, mañana llegan sus amigos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "possessive",
+      "su"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: verb change llegan → vienen",
+    "cue_audio_text": "vienen",
+    "base_sentence": "Además, mañana llegan sus amigos.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Además, mañana vienen sus amigos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "venir",
+      "verb_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: cuántos with gender/noun change",
+    "cue_audio_text": "niñas",
+    "base_sentence": "¿Cuántos hijos tiene?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿Cuántas niñas tiene?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "cuánto",
+      "gender_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: noun change with cuánto agreement",
+    "cue_audio_text": "agua",
+    "base_sentence": "¿Cuánto tiempo quieres?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿Cuánta agua quieres?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "cuánto",
+      "gender_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: number/gender cascade in una hermana mía pattern",
+    "cue_audio_text": "hermanas",
+    "base_sentence": "Una hermana mía casada vive allí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Unas hermanas mías casadas viven allí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "number_agreement",
+      "possessive",
+      "adjective_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 14",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: gender cascade hermanas suyas → hijo suyo",
+    "cue_audio_text": "hijo",
+    "base_sentence": "Unas hermanas suyas casadas viven allí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Un hijo suyo casado vive allí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "gender_agreement",
+      "possessive",
+      "number_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  }
+]

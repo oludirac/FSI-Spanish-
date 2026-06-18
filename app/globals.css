@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0a0a;
+  --surface: #141414;
+  --border: #262626;
+  --accent: #22c55e;
+  --fail: #ef4444;
+  --muted: #737373;
+}
+
+html {
+  background-color: var(--bg);
+  color-scheme: dark;
+}
+
+body {
+  color: #e5e5e5;
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent text selection during drill sessions */
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+}

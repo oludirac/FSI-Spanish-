@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "description": "Global grading rules for FSI drill accepted_outputs matching. These rules apply to ALL drill items unless an item-level override exists.",
+  "rules": {
+    "discourse_marker_comma_optional": {
+      "description": "When accepted_output begins with 'Sí, ' or 'No, ', the comma is optional for matching purposes. In spoken audio, commas are inaudible. The grader should normalize both 'Sí, X' and 'Sí X' to the same canonical form before comparison.",
+      "applies_to": "all items where accepted_outputs starts with 'Sí,' or 'No,'",
+      "affected_item_count": 27,
+      "example": {
+        "accepted_output": "Sí, la veo.",
+        "also_accepted": "Sí la veo.",
+        "rejected": "La veo."
+      },
+      "note": "The discourse marker word itself (Sí/No) remains REQUIRED when the prompt explicitly asks for an affirmative/negative response. Only the trailing comma is optional."
+    },
+    "accent_normalization": {
+      "description": "When require_accents is true, all orthographic accents must be present. Modern RAE 2010 rules apply: demonstrative pronouns (este, ese, aquel) are NEVER accented. The adverb 'solo' is NEVER accented.",
+      "rae_2010_demonstratives": "este/ese/aquel as pronouns: no accent (éste → este)",
+      "rae_2010_solo": "solo as adverb: no accent (sólo → solo)"
+    },
+    "clitic_placement_with_periphrastic": {
+      "description": "For periphrastic constructions (ir + a + infinitive, tener + que + infinitive, etc.), both clitic positions are valid: proclitic on conjugated verb ('lo voy a llevar') and enclitic on infinitive ('voy a llevarlo'). Items should include both forms in accepted_outputs where applicable.",
+      "note": "This has been applied to identified items. If new periphrastic items are added, ensure both forms are listed."
+    },
+    "locative_adverb_equivalence": {
+      "description": "Whisper cannot reliably distinguish 'ahí' [aˈi] from 'allí' [aˈʝi]. In Colombian Spanish these are used interchangeably in most contexts. Before comparison, the grader should normalize both to a single canonical form (e.g. 'ahí').",
+      "equivalents": ["ahí", "allí"],
+      "affected_item_count": 17,
+      "example": {
+        "accepted_output": "Alicia come allí.",
+        "also_accepted": "Alicia come ahí."
+      },
+      "note": "None of the current drills test the spatial distinction between ahí/allí. The tested grammar point is always something else (conjugation, possessives, etc.)."
+    },
+    "stt_normalization": {
+      "description": "Before comparing STT output to accepted_outputs, the grader should: (1) normalize Unicode (NFC), (2) trim whitespace, (3) collapse multiple spaces, (4) remove trailing period if present, (5) apply discourse_marker_comma_optional rule, (6) apply locative_adverb_equivalence rule.",
+      "case_sensitive": false,
+      "punctuation_policy": "sentence-final period is optional; all other punctuation must match"
+    }
+  }
+}

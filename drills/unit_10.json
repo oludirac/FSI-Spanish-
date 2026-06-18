@@ -1,0 +1,738 @@
+[
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "personal a: person noun triggers a before direct object",
+    "cue_audio_text": "señora",
+    "base_sentence": "Busco la casa.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Busco a la señora."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "personal_a",
+      "direct_object",
+      "person_noun"
+    ],
+    "block_instruction": "Sustitución: cambie el complemento directo"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "personal a: person noun triggers a before direct object",
+    "cue_audio_text": "Juan",
+    "base_sentence": "No encontramos el apartamento.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No encontramos a Juan."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "personal_a",
+      "direct_object",
+      "person_noun"
+    ],
+    "block_instruction": "Sustitución: cambie el complemento directo"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "personal a: person noun triggers a before direct object",
+    "cue_audio_text": "Luisa",
+    "base_sentence": "Llevo el carro.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Llevo a Luisa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "personal_a",
+      "direct_object",
+      "person_noun"
+    ],
+    "block_instruction": "Sustitución: cambie el complemento directo"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "personal a: nonperson noun drops a",
+    "cue_audio_text": "escuela",
+    "base_sentence": "Buscamos a la secretaria.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Buscamos la escuela."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "personal_a",
+      "direct_object",
+      "nonperson_noun"
+    ],
+    "block_instruction": "Sustitución: cambie el complemento directo"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: personal a, alternative question",
+    "cue_audio_text": "¿Busca la agencia o a la secretaria?",
+    "base_sentence": "¿Busca la agencia o a la secretaria?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A la secretaria.",
+      "La agencia."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "personal_a",
+      "response",
+      "direct_object"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: personal a, information question",
+    "cue_audio_text": "a la señora. ¿A quién buscan ustedes?",
+    "base_sentence": "a la señora. ¿A quién buscan ustedes?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A la señora."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "personal_a",
+      "response",
+      "information_question"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: personal a with clitic pronoun in answer",
+    "cue_audio_text": "¿Ve usted a la señorita?",
+    "base_sentence": "¿Ve usted a la señorita?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, la veo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "personal_a",
+      "clitic",
+      "response",
+      "direct_object"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: personal a with clitic pronoun in answer",
+    "cue_audio_text": "¿Llevan ustedes al conductor?",
+    "base_sentence": "¿Llevan ustedes al conductor?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, lo llevamos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "personal_a",
+      "clitic",
+      "response",
+      "masculine"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: personal a with clitic pronoun in answer",
+    "cue_audio_text": "¿Busca él a los meseros?",
+    "base_sentence": "¿Busca él a los meseros?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Sí, los busca."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "personal_a",
+      "clitic",
+      "response",
+      "masculine_plural"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "structural_transformation",
+    "original_focus": "direct object noun to clitic pronoun transformation",
+    "cue_audio_text": "Alquilan el apartamento.",
+    "base_sentence": "Alquilan el apartamento.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Lo alquilan."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "clitic",
+      "direct_object",
+      "lo",
+      "masculine"
+    ],
+    "block_instruction": "Transformación: reemplace el sustantivo con un pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "structural_transformation",
+    "original_focus": "direct object noun to clitic pronoun transformation",
+    "cue_audio_text": "Buscamos los anuncios.",
+    "base_sentence": "Buscamos los anuncios.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Los buscamos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "clitic",
+      "direct_object",
+      "los",
+      "masculine_plural"
+    ],
+    "block_instruction": "Transformación: reemplace el sustantivo con un pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "structural_transformation",
+    "original_focus": "direct object noun to clitic pronoun transformation",
+    "cue_audio_text": "Tiene las llaves.",
+    "base_sentence": "Tiene las llaves.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Las tiene."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "clitic",
+      "direct_object",
+      "las",
+      "feminine_plural"
+    ],
+    "block_instruction": "Transformación: reemplace el sustantivo con un pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "structural_transformation",
+    "original_focus": "direct object noun to clitic pronoun transformation",
+    "cue_audio_text": "Escribo los nombres.",
+    "base_sentence": "Escribo los nombres.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Los escribo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "clitic",
+      "direct_object",
+      "los",
+      "masculine_plural"
+    ],
+    "block_instruction": "Transformación: reemplace el sustantivo con un pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "structural_transformation",
+    "original_focus": "direct object noun to clitic pronoun transformation",
+    "cue_audio_text": "Limpian las habitaciones.",
+    "base_sentence": "Limpian las habitaciones.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Las limpian."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "clitic",
+      "direct_object",
+      "las",
+      "feminine_plural"
+    ],
+    "block_instruction": "Transformación: reemplace el sustantivo con un pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "clitic person substitution with redundant a-phrase",
+    "cue_audio_text": "A ellos",
+    "base_sentence": "A nosotros nos ayuda Juan.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A ellos los ayuda Juan."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "clitic",
+      "person_number",
+      "redundant_construction"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "clitic person substitution with redundant a-phrase",
+    "cue_audio_text": "A mí",
+    "base_sentence": "A nosotros nos ayuda Juan.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A mí me ayuda Juan."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "clitic",
+      "person_number",
+      "redundant_construction"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "clitic person substitution with redundant a-phrase",
+    "cue_audio_text": "A Carmen",
+    "base_sentence": "A nosotros nos ayuda Juan.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A Carmen la ayuda Juan."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "clitic",
+      "person_number",
+      "redundant_construction",
+      "feminine"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "clitic person substitution: negative with nadie",
+    "cue_audio_text": "A ellas",
+    "base_sentence": "A mí no me busca nadie.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A ellas no las busca nadie."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "clitic",
+      "person_number",
+      "negation",
+      "feminine_plural"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "clitic person substitution: negative with nadie",
+    "cue_audio_text": "A él",
+    "base_sentence": "A mí no me busca nadie.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "A él no lo busca nadie."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "clitic",
+      "person_number",
+      "negation",
+      "masculine"
+    ],
+    "block_instruction": "Sustitución: cambie la persona"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "-do form agreement: item substitution with gender/number substitution",
+    "cue_audio_text": "un carro",
+    "base_sentence": "Ahí hay una mesa desocupada.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ahí hay un carro desocupado."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "past_participle",
+      "gender_agreement",
+      "adjective"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "-do form agreement: item substitution with gender/number substitution",
+    "cue_audio_text": "unas sillas",
+    "base_sentence": "Ahí hay una mesa desocupada.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ahí hay unas sillas desocupadas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "past_participle",
+      "number_agreement",
+      "gender_agreement"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "-do form agreement: item substitution with estar",
+    "cue_audio_text": "La casa",
+    "base_sentence": "El apartamento está alquilado.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "La casa está alquilada."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "past_participle",
+      "gender_agreement",
+      "estar"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "-do form agreement: item substitution with estar",
+    "cue_audio_text": "Los edificios",
+    "base_sentence": "El apartamento está alquilado.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Los edificios están alquilados."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "past_participle",
+      "number_agreement",
+      "estar"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "-do form agreement: item substitution with estar",
+    "cue_audio_text": "Las camas",
+    "base_sentence": "La sala está arreglada.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Las camas están arregladas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "past_participle",
+      "number_agreement",
+      "estar",
+      "feminine"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "-do form agreement: item substitution with estar",
+    "cue_audio_text": "El dormitorio",
+    "base_sentence": "La sala está arreglada.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "El dormitorio está arreglado."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "past_participle",
+      "gender_agreement",
+      "estar",
+      "masculine"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: reflexive verb with person change",
+    "cue_audio_text": "Te",
+    "base_sentence": "Me mudo el sábado.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Te mudas el sábado."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "reflexive",
+      "mudarse",
+      "conjugation",
+      "second_person"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: verb substitution preserving reflexive",
+    "cue_audio_text": "vas",
+    "base_sentence": "Te mudas el sábado.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Te vas el sábado."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "reflexive",
+      "irse",
+      "verb_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "structural_transformation",
+    "original_focus": "replacement drill: person change with reflexive",
+    "cue_audio_text": "Me",
+    "base_sentence": "Te vas esta noche.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Me voy esta noche."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "reflexive",
+      "irse",
+      "conjugation",
+      "first_person"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "structural_transformation",
+    "original_focus": "review: theme class verb pairs in present tense",
+    "cue_audio_text": "Habla y come mucho.",
+    "base_sentence": "Habla y come mucho.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Hablamos y comemos mucho."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "present_tense",
+      "theme_class",
+      "ar_er_verbs",
+      "first_person_plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "structural_transformation",
+    "original_focus": "review: theme class verb pairs in present tense",
+    "cue_audio_text": "Estudia y vive aquí.",
+    "base_sentence": "Estudia y vive aquí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Estudiamos y vivimos aquí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "present_tense",
+      "theme_class",
+      "ar_ir_verbs",
+      "first_person_plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "structural_transformation",
+    "original_focus": "review: theme class verb pairs in present tense",
+    "cue_audio_text": "Hablamos y escribimos mucho.",
+    "base_sentence": "Hablamos y escribimos mucho.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Hablan y escriben mucho."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "present_tense",
+      "theme_class",
+      "ar_ir_verbs",
+      "third_person_plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "constrained_response",
+    "original_focus": "review: theme class verb pairs in present tense",
+    "cue_audio_text": "Trabajamos y comemos demasiado.",
+    "base_sentence": "Trabajamos y comemos demasiado.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Trabaja y come demasiado."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "present_tense",
+      "theme_class",
+      "ar_er_verbs",
+      "third_person"
+    ],
+    "block_instruction": "Transformación: reemplace el sustantivo con un pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "structural_transformation",
+    "original_focus": "direct object noun to clitic pronoun with ver",
+    "cue_audio_text": "Veo el hotel.",
+    "base_sentence": "Veo el hotel.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Lo veo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "clitic",
+      "direct_object",
+      "lo",
+      "masculine"
+    ],
+    "block_instruction": "Transformación: reemplace el sustantivo con un pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 10",
+    "drill_type": "structural_transformation",
+    "original_focus": "direct object noun to clitic pronoun with llevar",
+    "cue_audio_text": "Lleva la soda.",
+    "base_sentence": "Lleva la soda.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "La lleva."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "clitic",
+      "direct_object",
+      "la",
+      "feminine"
+    ],
+    "block_instruction": "Transformación: reemplace el sustantivo con un pronombre"
+  }
+]

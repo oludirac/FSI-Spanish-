@@ -1,0 +1,788 @@
+[
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "structural_transformation",
+    "original_focus": "indirect clitic number: me → nos",
+    "cue_audio_text": "Me gusta la casa.",
+    "base_sentence": "Me gusta la casa.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Nos gusta la casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "me",
+      "nos",
+      "gustar",
+      "number_agreement"
+    ],
+    "block_instruction": "Hágalo plural o singular: pronombre indirecto"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "structural_transformation",
+    "original_focus": "indirect clitic number: nos → me",
+    "cue_audio_text": "Nos faltan las camisas.",
+    "base_sentence": "Nos faltan las camisas.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Me faltan las camisas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "nos",
+      "me",
+      "faltar",
+      "number_agreement"
+    ],
+    "block_instruction": "Hágalo plural o singular: pronombre indirecto"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "structural_transformation",
+    "original_focus": "indirect clitic number: les → le",
+    "cue_audio_text": "Les gusta el edificio.",
+    "base_sentence": "Les gusta el edificio.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Le gusta el edificio."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "les",
+      "le",
+      "gustar",
+      "number_agreement"
+    ],
+    "block_instruction": "Hágalo plural o singular: pronombre indirecto"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "structural_transformation",
+    "original_focus": "indirect clitic number: le → les",
+    "cue_audio_text": "Le falta un dólar.",
+    "base_sentence": "Le falta un dólar.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Les falta un dólar."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "le",
+      "les",
+      "faltar",
+      "number_agreement"
+    ],
+    "block_instruction": "Hágalo plural o singular: pronombre indirecto"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "structural_transformation",
+    "original_focus": "indirect clitic number: les → le with convenir",
+    "cue_audio_text": "Les conviene más el otro.",
+    "base_sentence": "Les conviene más el otro.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Le conviene más el otro."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "les",
+      "le",
+      "convenir",
+      "number_agreement"
+    ],
+    "block_instruction": "Hágalo plural o singular: pronombre indirecto"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "structural_transformation",
+    "original_focus": "indirect clitic number: me → nos with ir",
+    "cue_audio_text": "Me va muy bien.",
+    "base_sentence": "Me va muy bien.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Nos va muy bien."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "me",
+      "nos",
+      "ir",
+      "number_agreement"
+    ],
+    "block_instruction": "Hágalo plural o singular: pronombre indirecto"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "constrained_response",
+    "original_focus": "response: choice question with gustar + indirect clitic",
+    "cue_audio_text": "¿Le gusta la cerveza o el cuba libre?",
+    "base_sentence": "¿Le gusta la cerveza o el cuba libre?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Me gusta la cerveza.",
+      "Me gusta el cuba libre."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "gustar",
+      "response"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "constrained_response",
+    "original_focus": "response: choice question with gustar + indirect clitic les→nos",
+    "cue_audio_text": "¿Les gusta el apartamento o la casa?",
+    "base_sentence": "¿Les gusta el apartamento o la casa?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Nos gusta el apartamento.",
+      "Nos gusta la casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "gustar",
+      "response",
+      "nos"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "constrained_response",
+    "original_focus": "response: wh-question with parecer + indirect clitic",
+    "cue_audio_text": "grande. ¿Qué te parece el aeropuerto?",
+    "base_sentence": "grande. ¿Qué te parece el aeropuerto?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Me parece grande."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "parecer",
+      "response"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "constrained_response",
+    "original_focus": "response: wh-question with parecer + indirect clitic les→nos",
+    "cue_audio_text": "pequeño. ¿Qué les parece el edificio?",
+    "base_sentence": "pequeño. ¿Qué les parece el edificio?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Nos parece pequeño."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "parecer",
+      "response",
+      "nos"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "constrained_response",
+    "original_focus": "response: wh-question with parecer + plural noun agreement",
+    "cue_audio_text": "baratos. ¿Qué les parecen los trajes?",
+    "base_sentence": "baratos. ¿Qué les parecen los trajes?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Les parecen baratos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "parecer",
+      "response",
+      "plural"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "constrained_response",
+    "original_focus": "response: cuántas with faltar + indirect clitic",
+    "cue_audio_text": "doce. ¿Cuántas semanas le faltan?",
+    "base_sentence": "doce. ¿Cuántas semanas le faltan?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Me faltan doce."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "faltar",
+      "response",
+      "cuánto"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "constrained_response",
+    "original_focus": "response: negative correction with gustar",
+    "cue_audio_text": "la casa. ¿Le gusta el apartamento?",
+    "base_sentence": "la casa. ¿Le gusta el apartamento?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No, le gusta la casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "gustar",
+      "response",
+      "negation"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "indirect clitic substitution: nos → le (him)",
+    "cue_audio_text": "le",
+    "base_sentence": "Él nos trae la ropa.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Él le trae la ropa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "two_objects",
+      "le",
+      "traer"
+    ],
+    "block_instruction": "Sustitución: cambie el pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "indirect clitic substitution: le → me",
+    "cue_audio_text": "me",
+    "base_sentence": "Él le trae la ropa.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Él me trae la ropa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "two_objects",
+      "me",
+      "traer"
+    ],
+    "block_instruction": "Sustitución: cambie el pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "indirect clitic substitution: le → les (them)",
+    "cue_audio_text": "les",
+    "base_sentence": "Él le trae la ropa.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Él les trae la ropa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "two_objects",
+      "les",
+      "traer"
+    ],
+    "block_instruction": "Sustitución: cambie el pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "indirect clitic substitution: les → nos (us) with escribir",
+    "cue_audio_text": "nos",
+    "base_sentence": "Ella les escribe los nombres.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Ella nos escribe los nombres."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "two_objects",
+      "nos",
+      "escribir"
+    ],
+    "block_instruction": "Sustitución: cambie el pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "indirect clitic substitution: nos → me with escribir",
+    "cue_audio_text": "me",
+    "base_sentence": "Ella nos escribe los nombres.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Ella me escribe los nombres."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "two_objects",
+      "me",
+      "escribir"
+    ],
+    "block_instruction": "Sustitución: cambie el pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "indirect clitic substitution: le → les (them) with dar",
+    "cue_audio_text": "les",
+    "base_sentence": "Ellos le dan permiso.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Ellos les dan permiso."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "two_objects",
+      "les",
+      "dar"
+    ],
+    "block_instruction": "Sustitución: cambie el pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "indirect clitic substitution: les → me with dar",
+    "cue_audio_text": "me",
+    "base_sentence": "Ellos les dan permiso.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Ellos me dan permiso."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "two_objects",
+      "me",
+      "dar"
+    ],
+    "block_instruction": "Sustitución: cambie el pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "indirect clitic substitution: me → nos with revisar + present perfect",
+    "cue_audio_text": "nos",
+    "base_sentence": "Me han revisado las maletas.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Nos han revisado las maletas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "indirect_clitic",
+      "two_objects",
+      "nos",
+      "revisar",
+      "present_perfect"
+    ],
+    "block_instruction": "Sustitución: cambie el pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "indirect clitic substitution: les → me with lavar",
+    "cue_audio_text": "me",
+    "base_sentence": "Luisa les lava las camisas.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Luisa me lava las camisas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "indirect_clitic",
+      "two_objects",
+      "me",
+      "lavar"
+    ],
+    "block_instruction": "Sustitución: cambie el pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: demonstrative change with agreement cascade",
+    "cue_audio_text": "esa",
+    "base_sentence": "¿Son muy rigurosos en la aduana?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿Son muy rigurosos en esa aduana?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "demonstratives"
+    ],
+    "block_instruction": "Sustitución: cambie el pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: noun change in replacement chain",
+    "cue_audio_text": "casa",
+    "base_sentence": "¿Son muy rigurosos en esa aduana?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "¿Son muy rigurosos en esa casa?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "noun_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: adjective change",
+    "cue_audio_text": "amables",
+    "base_sentence": "¿Son muy rigurosos en esa casa?",
+    "is_chain": true,
+    "accepted_outputs": [
+      "¿Son muy amables en esa casa?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "adjective"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: number substitution with gender cascade in maleta",
+    "cue_audio_text": "Es",
+    "base_sentence": "Son unas maletas verdes.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Es una maleta verde."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "number_agreement",
+      "ser"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: noun change with gender cascade",
+    "cue_audio_text": "maletín",
+    "base_sentence": "Es una maleta verde.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Es un maletín verde."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "gender_agreement",
+      "noun_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: adjective change",
+    "cue_audio_text": "pequeño",
+    "base_sentence": "Es un maletín verde.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Es un maletín pequeño."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "adjective"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: estar agreement with number/gender cascade",
+    "cue_audio_text": "Las mesas",
+    "base_sentence": "Todo está desocupado.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Las mesas están desocupadas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "estar",
+      "adjective_agreement",
+      "number",
+      "gender"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: adjective change with estar",
+    "cue_audio_text": "lista",
+    "base_sentence": "Las mesas están desocupadas.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "La mesa está lista."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "estar",
+      "adjective_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: subject change with gender cascade, estar + listo",
+    "cue_audio_text": "El señor",
+    "base_sentence": "La mesa está lista.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "El señor está listo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "estar",
+      "gender_agreement",
+      "listo"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: subject/number substitution with contento, estar",
+    "cue_audio_text": "contentos",
+    "base_sentence": "El señor está listo.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Los señores están contentos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "estar",
+      "number_agreement",
+      "contento"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: ir+a+inf chain, verb change",
+    "cue_audio_text": "traer",
+    "base_sentence": "Voy a buscar un taxi.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Voy a traer un taxi."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "ir_a_infinitive",
+      "verb_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: noun change in ir+a+inf",
+    "cue_audio_text": "libros",
+    "base_sentence": "Voy a traer un taxi.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Voy a traer unos libros."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "ir_a_infinitive",
+      "noun_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: person change in ir+a+inf",
+    "cue_audio_text": "Vamos",
+    "base_sentence": "Voy a traer unos libros.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Vamos a traer unos libros."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "ir_a_infinitive",
+      "person_number"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 15",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: ir+a → tener+que construction change",
+    "cue_audio_text": "Tenemos que",
+    "base_sentence": "Vamos a comprar esas cosas.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Tenemos que comprar esas cosas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "replacement",
+      "tener_que",
+      "obligation",
+      "construction_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  }
+]

@@ -1,0 +1,684 @@
+[
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: possessive disambiguation su → de + pronoun",
+    "cue_audio_text": "de ustedes",
+    "base_sentence": "Esta es la ropa suya.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Esta es la ropa de ustedes."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "disambiguation",
+      "de_construction"
+    ],
+    "block_instruction": "Sustitución: cambie suyo por de + pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: possessive disambiguation su → de + pronoun",
+    "cue_audio_text": "de ella",
+    "base_sentence": "El apartamento suyo es grande.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "El apartamento de ella es grande."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "disambiguation",
+      "de_construction"
+    ],
+    "block_instruction": "Sustitución: cambie suyo por de + pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: possessive disambiguation su → de + pronoun",
+    "cue_audio_text": "de usted",
+    "base_sentence": "La novia suya es bonita.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "La novia de usted es bonita."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "disambiguation",
+      "de_construction"
+    ],
+    "block_instruction": "Sustitución: cambie suyo por de + pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: possessive disambiguation su → de + pronoun",
+    "cue_audio_text": "de él",
+    "base_sentence": "Su amiga es casada.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "La amiga de él es casada."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "disambiguation",
+      "de_construction"
+    ],
+    "block_instruction": "Sustitución: cambie suyo por de + pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: possessive disambiguation su → de + pronoun",
+    "cue_audio_text": "de ella",
+    "base_sentence": "Sus amigos son solteros.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Los amigos de ella son solteros."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "disambiguation",
+      "de_construction",
+      "plural"
+    ],
+    "block_instruction": "Sustitución: cambie suyo por de + pronombre"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive nominalization: noun omission",
+    "cue_audio_text": "Las llaves mías no están aquí.",
+    "base_sentence": "Las llaves mías no están aquí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Las mías no están aquí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "nominalization",
+      "mío"
+    ],
+    "block_instruction": "Transformación: quite el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive nominalization: noun omission",
+    "cue_audio_text": "La casa suya queda cerca.",
+    "base_sentence": "La casa suya queda cerca.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "La suya queda cerca."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "nominalization",
+      "suyo"
+    ],
+    "block_instruction": "Transformación: quite el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive nominalization: noun omission",
+    "cue_audio_text": "El apartamento suyo tiene dos baños.",
+    "base_sentence": "El apartamento suyo tiene dos baños.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "El suyo tiene dos baños."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "nominalization",
+      "suyo"
+    ],
+    "block_instruction": "Transformación: quite el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive nominalization: noun omission with tuyo",
+    "cue_audio_text": "La hija tuya es muy bonita.",
+    "base_sentence": "La hija tuya es muy bonita.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "La tuya es muy bonita."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "nominalization",
+      "tuyo"
+    ],
+    "block_instruction": "Transformación: quite el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "structural_transformation",
+    "original_focus": "possessive nominalization: noun omission with tuyos plural",
+    "cue_audio_text": "Los muebles tuyos son muy bonitos.",
+    "base_sentence": "Los muebles tuyos son muy bonitos.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Los tuyos son muy bonitos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "possessive",
+      "nominalization",
+      "tuyo",
+      "plural"
+    ],
+    "block_instruction": "Transformación: quite el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: frequency expression change",
+    "cue_audio_text": "de vez en cuando",
+    "base_sentence": "¿Dan estas fiestas aquí a menudo?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿Dan estas fiestas aquí de vez en cuando?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "frequency",
+      "expression"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: noun substitution with demonstrative agreement",
+    "cue_audio_text": "tragos",
+    "base_sentence": "¿Dan estas fiestas ahí de vez en cuando?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿Dan estos tragos ahí de vez en cuando?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "gender_agreement",
+      "demonstratives"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: verb substitution",
+    "cue_audio_text": "Hacen",
+    "base_sentence": "¿Dan esos tragos ahí de vez en cuando?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "¿Hacen esos tragos ahí de vez en cuando?"
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "verb_substitution"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: parecer agreement with number substitution",
+    "cue_audio_text": "Estas",
+    "base_sentence": "Esta me parece estupenda.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Estas me parecen estupendas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "parecer",
+      "number_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: adjective change with parecer",
+    "cue_audio_text": "buenas",
+    "base_sentence": "Estas me parecen estupendas.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Estas me parecen buenas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "parecer",
+      "adjective"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: gender/number cascade with parecer",
+    "cue_audio_text": "Este",
+    "base_sentence": "Estas me parecen buenas.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Este me parece bueno."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "parecer",
+      "gender_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: adjective change with parecer",
+    "cue_audio_text": "malo",
+    "base_sentence": "Este me parece bueno.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Este me parece malo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "parecer",
+      "adjective"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: demonstrative change with gender cascade",
+    "cue_audio_text": "Aquella",
+    "base_sentence": "Este me parece malo.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Aquella me parece mala."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "parecer",
+      "demonstratives",
+      "gender_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "progressive with fíjate: noun substitution with agreement",
+    "cue_audio_text": "chicas",
+    "base_sentence": "Fíjate cómo está bailando esa morena.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Fíjate cómo están bailando esas chicas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "progressive",
+      "estar_gerund",
+      "number_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "progressive with fíjate: demonstrative change",
+    "cue_audio_text": "aquellas",
+    "base_sentence": "Fíjate cómo están bailando esas chicas.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Fíjate cómo están bailando aquellas chicas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "progressive",
+      "estar_gerund",
+      "demonstratives"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "progressive with fíjate: gerund and subject change",
+    "cue_audio_text": "aquel señor, bebiendo",
+    "base_sentence": "Fíjate cómo están bailando aquellas chicas.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Fíjate cómo está bebiendo aquel señor."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "progressive",
+      "estar_gerund",
+      "number_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: number substitution in de-phrase",
+    "cue_audio_text": "hijas",
+    "base_sentence": "Es la hija del señor de la casa.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Son las hijas del señor de la casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "number_agreement",
+      "ser"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: gender change in de-phrase",
+    "cue_audio_text": "señora",
+    "base_sentence": "Son las hijas del señor de la casa.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Son las hijas de la señora de la casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "gender_agreement",
+      "de_phrase"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: noun change with agreement cascade",
+    "cue_audio_text": "amigo",
+    "base_sentence": "Son las hijas de la señora de la casa.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Es el amigo de la señora de la casa."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "gender_agreement",
+      "ser"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: possessive nominalization in aquí/ahí pattern",
+    "cue_audio_text": "tuyo",
+    "base_sentence": "Aquí tienes la tuya.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Aquí tienes el tuyo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "possessive",
+      "nominalization",
+      "gender"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: verb + possessive nominalization change",
+    "cue_audio_text": "está",
+    "base_sentence": "Aquí tienes el tuyo.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Aquí está el tuyo."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "possessive",
+      "nominalization",
+      "estar"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: possessive nominalization number/person change",
+    "cue_audio_text": "las mías",
+    "base_sentence": "Aquí está el tuyo.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Aquí están las mías."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "possessive",
+      "nominalization",
+      "number_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: location adverb change",
+    "cue_audio_text": "Ahí",
+    "base_sentence": "Aquí están las mías.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Ahí están las mías."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "adverb",
+      "location"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: possessive nominalization to nuestros",
+    "cue_audio_text": "nuestros",
+    "base_sentence": "Ahí están otras mías.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Ahí están otros nuestros."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "possessive",
+      "nominalization",
+      "gender_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: number substitution to singular with nuestro",
+    "cue_audio_text": "el nuestro",
+    "base_sentence": "Ahí están otros nuestros.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "Ahí está el nuestro."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "possessive",
+      "nominalization",
+      "singular"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: possessive full form with relative clause",
+    "cue_audio_text": "señora mía",
+    "base_sentence": "Ese que pasa por ahí es el Coronel Harris.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Esa que pasa por ahí es la señora mía."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "possessive",
+      "relative_clause",
+      "gender_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 13",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement: possessive full form with plural relative clause",
+    "cue_audio_text": "Aquellos, los amigos míos",
+    "base_sentence": "Ese que pasa por ahí es el amigo mío.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Aquellos que pasan por ahí son los amigos míos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "possessive",
+      "relative_clause",
+      "plural",
+      "number_agreement"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  }
+]

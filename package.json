@@ -1,0 +1,42 @@
+{
+  "name": "fsi-spanish-speaking-drills",
+  "version": "1.0.0",
+  "description": "Audio-first Spanish speaking drills based on the public-domain FSI Spanish Basic Course.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "validate:drills": "node scripts/validate-drills.js"
+  },
+  "keywords": [
+    "spanish",
+    "language-learning",
+    "fsi",
+    "nextjs",
+    "speech-to-text",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.24",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.35",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.9"
+  }
+}

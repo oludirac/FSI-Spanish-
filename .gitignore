@@ -1,0 +1,47 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+bogota register
+DRILL_AUDIT.md
+GRADER_AUDIT.md
+EXTRACTION_BRIEF.md
+drills/AUDIT_LOG.md
+
+# debug
+npm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# audio files (pre-generated, large)
+public/audio/
+
+# PDFs (source material, not part of app)
+*.pdf
+
+# local evidence and working notes
+evidence/
+notes/
+local/

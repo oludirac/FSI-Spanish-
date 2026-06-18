@@ -1,0 +1,723 @@
+[
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: singular to plural, regular -er verbs",
+    "cue_audio_text": "Aprendo español.",
+    "base_sentence": "Aprendo español.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Aprendemos español."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "number_agreement",
+      "er_verbs",
+      "present_tense",
+      "plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: plural to singular, regular -er verbs",
+    "cue_audio_text": "Comemos pastel.",
+    "base_sentence": "Comemos pastel.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Como pastel."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "number_agreement",
+      "er_verbs",
+      "present_tense",
+      "singular"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: singular to plural, regular -er verbs",
+    "cue_audio_text": "Debe veinte pesos.",
+    "base_sentence": "Debe veinte pesos.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Deben veinte pesos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "number_agreement",
+      "er_verbs",
+      "present_tense",
+      "plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: plural to singular, regular -er verbs",
+    "cue_audio_text": "Comen mucho postre.",
+    "base_sentence": "Comen mucho postre.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Come mucho postre."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "number_agreement",
+      "er_verbs",
+      "present_tense",
+      "singular"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution: singular to plural, regular -er verbs",
+    "cue_audio_text": "Creo que sí.",
+    "base_sentence": "Creo que sí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Creemos que sí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "number_agreement",
+      "er_verbs",
+      "present_tense",
+      "plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: verbo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -er verb conjugation",
+    "cue_audio_text": "Alicia",
+    "base_sentence": "Yo como allí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Alicia come allí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "er_verbs",
+      "present_tense",
+      "conjugation",
+      "third_person"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -er verb conjugation",
+    "cue_audio_text": "ellos",
+    "base_sentence": "Yo como allí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ellos comen allí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "er_verbs",
+      "present_tense",
+      "conjugation",
+      "third_person_plural"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -er verb conjugation",
+    "cue_audio_text": "Antonio y yo",
+    "base_sentence": "Yo como allí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Antonio y yo comemos allí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "er_verbs",
+      "present_tense",
+      "conjugation",
+      "first_person_plural"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -er verb conjugation",
+    "cue_audio_text": "yo",
+    "base_sentence": "Aprendemos mucho ahí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Yo aprendo mucho ahí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "er_verbs",
+      "present_tense",
+      "conjugation",
+      "first_person"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -er verb conjugation",
+    "cue_audio_text": "ustedes",
+    "base_sentence": "Aprendemos mucho ahí.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Ustedes aprenden mucho ahí."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "er_verbs",
+      "present_tense",
+      "conjugation",
+      "third_person_plural"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -er verb conjugation",
+    "cue_audio_text": "nosotros",
+    "base_sentence": "Antonio debe en el hotel.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Nosotros debemos en el hotel."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "er_verbs",
+      "present_tense",
+      "conjugation",
+      "first_person_plural"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "person substitution: -er verb conjugation",
+    "cue_audio_text": "Alicia y Carmen",
+    "base_sentence": "Antonio debe en el hotel.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Alicia y Carmen deben en el hotel."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "er_verbs",
+      "present_tense",
+      "conjugation",
+      "third_person_plural"
+    ],
+    "block_instruction": "Sustitución: cambie el sujeto"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: -er verbs, alternative question",
+    "cue_audio_text": "¿Come usted en el centro o en el apartamento?",
+    "base_sentence": "¿Come usted en el centro o en el apartamento?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Como en el centro.",
+      "Como en el apartamento."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "er_verbs",
+      "present_tense",
+      "response",
+      "first_person"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: -er verbs, alternative question",
+    "cue_audio_text": "¿Aprenden ustedes español o inglés?",
+    "base_sentence": "¿Aprenden ustedes español o inglés?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Aprendemos español.",
+      "Aprendemos inglés."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "er_verbs",
+      "present_tense",
+      "response",
+      "first_person_plural"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: -er verbs, information question",
+    "cue_audio_text": "en el centro. ¿Dónde comen ustedes?",
+    "base_sentence": "en el centro. ¿Dónde comen ustedes?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Comemos en el centro."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "er_verbs",
+      "present_tense",
+      "response",
+      "first_person_plural"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: -er verbs, negative correction",
+    "cue_audio_text": "verduras. ¿Come ella jamón?",
+    "base_sentence": "verduras. ¿Come ella jamón?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No, come verduras."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "er_verbs",
+      "present_tense",
+      "response",
+      "negation"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "constrained_response",
+    "original_focus": "response drill: -er verbs, negative correction",
+    "cue_audio_text": "en el apartamento. ¿Come usted en el restaurante?",
+    "base_sentence": "en el apartamento. ¿Come usted en el restaurante?",
+    "is_chain": false,
+    "accepted_outputs": [
+      "No, como en el apartamento."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": true
+    },
+    "tags": [
+      "er_verbs",
+      "present_tense",
+      "response",
+      "negation"
+    ],
+    "block_instruction": "Respuesta: conteste la pregunta"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "demonstrative form substitution",
+    "cue_audio_text": "Esta",
+    "base_sentence": "La mesa es nueva.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Esta mesa es nueva."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstratives",
+      "este",
+      "feminine",
+      "singular"
+    ],
+    "block_instruction": "Sustitución: cambie el artículo por un demostrativo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "demonstrative form substitution",
+    "cue_audio_text": "Aquella",
+    "base_sentence": "La mesa es nueva.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Aquella mesa es nueva."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstratives",
+      "aquel",
+      "feminine",
+      "singular"
+    ],
+    "block_instruction": "Sustitución: cambie el artículo por un demostrativo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "demonstrative form substitution",
+    "cue_audio_text": "Aquel",
+    "base_sentence": "El cuarto es bueno.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Aquel cuarto es bueno."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstratives",
+      "aquel",
+      "masculine",
+      "singular"
+    ],
+    "block_instruction": "Sustitución: cambie el artículo por un demostrativo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "demonstrative form substitution",
+    "cue_audio_text": "Aquellos",
+    "base_sentence": "Los apartamentos son baratos.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Aquellos apartamentos son baratos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstratives",
+      "aquel",
+      "masculine",
+      "plural"
+    ],
+    "block_instruction": "Sustitución: cambie el artículo por un demostrativo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution with demonstratives: singular to plural",
+    "cue_audio_text": "Tráigame ese vaso.",
+    "base_sentence": "Tráigame ese vaso.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Tráigame esos vasos."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstratives",
+      "number_agreement",
+      "plural"
+    ],
+    "block_instruction": "Hágalo plural o singular: sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution with demonstratives: singular to plural",
+    "cue_audio_text": "Deseo ir a esa agencia.",
+    "base_sentence": "Deseo ir a esa agencia.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Deseo ir a esas agencias."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstratives",
+      "number_agreement",
+      "plural",
+      "feminine"
+    ],
+    "block_instruction": "Hágalo plural o singular: sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution with demonstratives: plural to singular",
+    "cue_audio_text": "Aquellos edificios son grandes.",
+    "base_sentence": "Aquellos edificios son grandes.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Aquel edificio es grande."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstratives",
+      "number_agreement",
+      "singular",
+      "ser"
+    ],
+    "block_instruction": "Hágalo plural o singular: sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution with demonstratives: plural to singular",
+    "cue_audio_text": "Estos escritorios son baratos.",
+    "base_sentence": "Estos escritorios son baratos.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Este escritorio es barato."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstratives",
+      "number_agreement",
+      "singular",
+      "ser"
+    ],
+    "block_instruction": "Hágalo plural o singular: sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "structural_transformation",
+    "original_focus": "number substitution with demonstratives: singular to plural",
+    "cue_audio_text": "Esta mesa no es grande.",
+    "base_sentence": "Esta mesa no es grande.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Estas mesas no son grandes."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstratives",
+      "number_agreement",
+      "plural",
+      "negation"
+    ],
+    "block_instruction": "Hágalo plural o singular: sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "demonstrative gender agreement: item substitution",
+    "cue_audio_text": "señor",
+    "base_sentence": "Quiero presentarle a esa señora.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Quiero presentarle a ese señor."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstratives",
+      "gender_agreement",
+      "ese"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "demonstrative gender agreement: item substitution",
+    "cue_audio_text": "escuelas",
+    "base_sentence": "Esos apartamentos son buenos.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Esas escuelas son buenas."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstratives",
+      "gender_agreement",
+      "number_agreement",
+      "ese"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "demonstrative gender agreement: item substitution",
+    "cue_audio_text": "revista",
+    "base_sentence": "Páseme ese lápiz.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Páseme esa revista."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstratives",
+      "gender_agreement",
+      "ese"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "demonstrative gender agreement: item substitution",
+    "cue_audio_text": "edificio",
+    "base_sentence": "Esta sección es grande.",
+    "is_chain": false,
+    "accepted_outputs": [
+      "Este edificio es grande."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "demonstratives",
+      "gender_agreement",
+      "este"
+    ],
+    "block_instruction": "Sustitución: cambie el sustantivo"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: one-slot substitution in chain",
+    "cue_audio_text": "buscar",
+    "base_sentence": "El señor White desea alquilar un apartamento.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "El señor White desea buscar un apartamento."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "verb_substitution",
+      "infinitive"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: noun substitution with agreement cascade",
+    "cue_audio_text": "La señora White",
+    "base_sentence": "El señor White desea buscar un apartamento.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "La señora White desea buscar un apartamento."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "gender_agreement",
+      "subject_change"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  },
+  {
+    "source_unit": "FSI Unit 7",
+    "drill_type": "controlled_substitution",
+    "original_focus": "replacement drill: object substitution with agreement cascade",
+    "cue_audio_text": "muebles",
+    "base_sentence": "La señora White desea buscar un apartamento.",
+    "is_chain": true,
+    "accepted_outputs": [
+      "La señora White desea buscar unos muebles."
+    ],
+    "strictness": {
+      "require_accents": true,
+      "allow_subject_drop": false
+    },
+    "tags": [
+      "replacement",
+      "number_agreement",
+      "object_change"
+    ],
+    "block_instruction": "Sustitución: reemplace la palabra"
+  }
+]
