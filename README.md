@@ -8,6 +8,13 @@ The focus is deliberate oral pattern practice rather than flashcards or free
 conversation. It currently covers Units 7-16, with 343 drill items adapted for
 browser-based speaking practice.
 
+## Live Demo
+
+[fsi-spanish.vercel.app](https://fsi-spanish.vercel.app/)
+
+The demo is passcode-protected because speech grading uses a server-side OpenAI
+API key. Passcode available on request.
+
 ## What It Does
 
 - Training Mode for first-time learners: visible base sentence, cue text,
