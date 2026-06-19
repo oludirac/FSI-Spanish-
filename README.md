@@ -80,10 +80,16 @@ Create `.env.local` from `.env.example`:
 ```bash
 OPENAI_API_KEY=your_openai_api_key
 ELEVENLABS_API_KEY=
+OPENAI_TRANSCRIPTION_MODEL=gpt-4o-mini-transcribe
+APP_PASSCODE=
 ```
 
 `ELEVENLABS_API_KEY` is optional. The app falls back to browser TTS when
 generated audio files are not present.
+
+`APP_PASSCODE` is optional. When set, the whole app is protected by a simple
+passcode gate. This is useful for private Vercel demos that use your own
+server-side OpenAI key.
 
 ## Run
 
@@ -92,6 +98,18 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
+
+## Deploy
+
+On Vercel, set these environment variables:
+
+- `OPENAI_API_KEY`
+- `OPENAI_TRANSCRIPTION_MODEL`
+- `APP_PASSCODE`
+- `ELEVENLABS_API_KEY` only if you plan to generate audio
+
+The passcode gate is intentionally lightweight. It is enough for a private demo
+link, but it is not a replacement for real user authentication.
 
 ## Verify
 
