@@ -111,6 +111,10 @@ On Vercel, set these environment variables:
 The passcode gate is intentionally lightweight. It is enough for a private demo
 link, but it is not a replacement for real user authentication.
 
+Use a unique `APP_PASSCODE` that you do not use anywhere else. When the
+passcode is accepted, the app stores an HTTP-only session cookie containing a
+derived value, not the passcode itself.
+
 ## Verify
 
 ```bash

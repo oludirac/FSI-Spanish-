@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 const PASSCODE_COOKIE = "fsi_passcode";
 
-export function middleware(request: NextRequest) {
+export async function middleware(request: NextRequest) {
   const appPasscode = process.env.APP_PASSCODE;
 
   if (!appPasscode) {
@@ -20,7 +20,9 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  if (request.cookies.get(PASSCODE_COOKIE)?.value === appPasscode) {
+  const expectedSession = await getPasscodeSessionValue(appPasscode);
+
+  if (request.cookies.get(PASSCODE_COOKIE)?.value === expectedSession) {
     return NextResponse.next();
   }
 
@@ -33,3 +35,11 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: ["/((?!.*\\..*).*)"],
 };
+
+async function getPasscodeSessionValue(passcode: string): Promise<string> {
+  const data = new TextEncoder().encode(`fsi-passcode:${passcode}`);
+  const digest = await crypto.subtle.digest("SHA-256", data);
+  return Array.from(new Uint8Array(digest))
+    .map((byte) => byte.toString(16).padStart(2, "0"))
+    .join("");
+}
