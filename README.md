@@ -115,6 +115,15 @@ Use a unique `APP_PASSCODE` that you do not use anywhere else. When the
 passcode is accepted, the app stores an HTTP-only session cookie containing a
 derived value, not the passcode itself.
 
+The app also applies best-effort in-memory rate limits:
+
+- passcode attempts: 8 per 10 minutes per IP
+- speech-to-text: 12 requests per minute and 120 requests per hour per IP
+
+These limits are intended to reduce accidental abuse on a small private demo.
+For a high-traffic public app, move rate limiting to infrastructure such as
+Vercel Firewall, Upstash Redis, or another shared store.
+
 ## Verify
 
 ```bash

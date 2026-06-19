@@ -1,10 +1,35 @@
 import { NextRequest, NextResponse } from "next/server";
+import {
+  checkRateLimit,
+  getClientIp,
+  rateLimitHeaders,
+} from "@/lib/rate-limit";
 
 const PASSCODE_COOKIE = "fsi_passcode";
 const WRONG_PASSCODE_DELAY_MS = 500;
+const PASSCODE_LIMIT = {
+  limit: 8,
+  windowMs: 10 * 60 * 1000,
+};
 
 export async function POST(request: NextRequest) {
   const configuredPasscode = process.env.APP_PASSCODE;
+  const clientIp = getClientIp(request.headers);
+  const limit = checkRateLimit({
+    key: `passcode:${clientIp}`,
+    ...PASSCODE_LIMIT,
+  });
+
+  if (!limit.allowed) {
+    return NextResponse.json(
+      { error: "Too many passcode attempts" },
+      {
+        status: 429,
+        headers: rateLimitHeaders(limit),
+      }
+    );
+  }
+
   const formData = await request.formData();
   const submittedPasscode = String(formData.get("passcode") || "");
   const nextPath = normalizeNextPath(String(formData.get("next") || "/"));
@@ -24,6 +49,10 @@ export async function POST(request: NextRequest) {
       });
     }
 
+    for (const [key, value] of Object.entries(rateLimitHeaders(limit))) {
+      response.headers.set(key, value);
+    }
+
     return response;
   }
 
@@ -31,7 +60,11 @@ export async function POST(request: NextRequest) {
   const retryUrl = new URL("/passcode", request.url);
   retryUrl.searchParams.set("error", "1");
   retryUrl.searchParams.set("next", nextPath);
-  return NextResponse.redirect(retryUrl, { status: 303 });
+  const response = NextResponse.redirect(retryUrl, { status: 303 });
+  for (const [key, value] of Object.entries(rateLimitHeaders(limit))) {
+    response.headers.set(key, value);
+  }
+  return response;
 }
 
 function normalizeNextPath(value: string): string {

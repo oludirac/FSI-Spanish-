@@ -1,7 +1,20 @@
 import { NextRequest, NextResponse } from "next/server";
+import {
+  checkRateLimit,
+  getClientIp,
+  rateLimitHeaders,
+} from "@/lib/rate-limit";
 import { getTranscriptionModel } from "@/lib/transcription";
 
 const MAX_AUDIO_BYTES = 8 * 1024 * 1024;
+const STT_BURST_LIMIT = {
+  limit: 12,
+  windowMs: 60 * 1000,
+};
+const STT_HOURLY_LIMIT = {
+  limit: 120,
+  windowMs: 60 * 60 * 1000,
+};
 const ALLOWED_AUDIO_TYPES = new Set([
   "audio/webm",
   "audio/webm;codecs=opus",
@@ -23,6 +36,26 @@ const ALLOWED_AUDIO_TYPES = new Set([
 export async function POST(request: NextRequest) {
   const apiKey = process.env.OPENAI_API_KEY;
   const contentLength = Number(request.headers.get("content-length") || 0);
+  const clientIp = getClientIp(request.headers);
+  const burstLimit = checkRateLimit({
+    key: `stt:burst:${clientIp}`,
+    ...STT_BURST_LIMIT,
+  });
+  const hourlyLimit = checkRateLimit({
+    key: `stt:hour:${clientIp}`,
+    ...STT_HOURLY_LIMIT,
+  });
+  const activeLimit = !burstLimit.allowed ? burstLimit : hourlyLimit;
+
+  if (!activeLimit.allowed) {
+    return NextResponse.json(
+      { error: "Too many transcription requests" },
+      {
+        status: 429,
+        headers: rateLimitHeaders(activeLimit),
+      }
+    );
+  }
 
   if (!apiKey || apiKey === "sk-your-key-here") {
     return NextResponse.json(
@@ -93,7 +126,10 @@ export async function POST(request: NextRequest) {
     }
 
     const result = await response.json();
-    return NextResponse.json({ text: result.text ?? "" });
+    return NextResponse.json(
+      { text: result.text ?? "" },
+      { headers: rateLimitHeaders(hourlyLimit) }
+    );
   } catch (error) {
     console.error("STT route error:", error);
     return NextResponse.json(
